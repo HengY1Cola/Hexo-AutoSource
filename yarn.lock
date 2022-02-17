@@ -2,6 +2,110 @@
 # yarn lockfile v1
 
 
+"@algolia/cache-browser-local-storage@4.4.0":
+  "integrity" "sha512-2AiKgN7DpFypkRCRkpqH7waXXyFdcnsPWzmN8sLHrB/FfXqgmsQb3pGft+9YHZIDQ0vAnfgMxSGgMhMGW+0Qnw=="
+  "resolved" "https://registry.npmmirror.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/cache-common" "4.4.0"
+
+"@algolia/cache-common@4.4.0":
+  "integrity" "sha512-PrIgoMnXaDWUfwOekahro543pgcJfgRu/nd/ZQS5ffem3+Ow725eZY6HDpPaQ1k3cvLii9JH6V2sNJConjqUKA=="
+  "resolved" "https://registry.npmmirror.com/@algolia/cache-common/-/cache-common-4.4.0.tgz"
+  "version" "4.4.0"
+
+"@algolia/cache-in-memory@4.4.0":
+  "integrity" "sha512-9+XlUB0baDU/Dp9URRHPp6Q37YmTO0QmgPWt9+n+wqZrRL0jR3Jezr4jCT7RemqGMxBiR+YpnqaUv0orpb0ptw=="
+  "resolved" "https://registry.npmmirror.com/@algolia/cache-in-memory/-/cache-in-memory-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/cache-common" "4.4.0"
+
+"@algolia/client-account@4.4.0":
+  "integrity" "sha512-Kynu3cMEs0clTLf674rtrCF+FWR/JwlQxKlIWsPzvLBRmNXdvYej9YBcNaOr4OTQFCCZn9JVE8ib91Z7J4IL1Q=="
+  "resolved" "https://registry.npmmirror.com/@algolia/client-account/-/client-account-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/client-common" "4.4.0"
+    "@algolia/client-search" "4.4.0"
+    "@algolia/transporter" "4.4.0"
+
+"@algolia/client-analytics@4.4.0":
+  "integrity" "sha512-GQyjQimKAc9sZbafxln9Wk7j4pEYiORv28MZkZ+0Bjt7WNXIeO7OgOOECVpQHm9buyV6hCKpNtJcbb5/syRzdQ=="
+  "resolved" "https://registry.npmmirror.com/@algolia/client-analytics/-/client-analytics-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/client-common" "4.4.0"
+    "@algolia/client-search" "4.4.0"
+    "@algolia/requester-common" "4.4.0"
+    "@algolia/transporter" "4.4.0"
+
+"@algolia/client-common@4.4.0":
+  "integrity" "sha512-a3yr6UhzjWPHDG/8iGp9UvrDOm1aeHVWJIf0Nj/cIvqX5tNCEIo4IMe59ovApkDgLOIpt/cLsyhn9/FiPXRhJA=="
+  "resolved" "https://registry.npmmirror.com/@algolia/client-common/-/client-common-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/requester-common" "4.4.0"
+    "@algolia/transporter" "4.4.0"
+
+"@algolia/client-recommendation@4.4.0":
+  "integrity" "sha512-sBszbQH46rko6w2fdEG77ma8+fAg0SDkLZGxWhv4trgcnYGUBFl2dcpEPt/6koto9b4XYlf+eh+qi6iGvYqRPg=="
+  "resolved" "https://registry.npmmirror.com/@algolia/client-recommendation/-/client-recommendation-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/client-common" "4.4.0"
+    "@algolia/requester-common" "4.4.0"
+    "@algolia/transporter" "4.4.0"
+
+"@algolia/client-search@4.4.0":
+  "integrity" "sha512-jqWcxCUyPPHnHreoMb2PnN9iHTP+V/nL62R84XuTRDE3VgTnhm4ZnqyuRdzZQqaz+gNy5znav64TmQ9FN9WW5g=="
+  "resolved" "https://registry.npmmirror.com/@algolia/client-search/-/client-search-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/client-common" "4.4.0"
+    "@algolia/requester-common" "4.4.0"
+    "@algolia/transporter" "4.4.0"
+
+"@algolia/logger-common@4.4.0":
+  "integrity" "sha512-2vjmSENLaKNuF+ytRDysfWxxgFG95WXCHwHbueThdPMCK3hskkwqJ0Y/pugKfzl+54mZxegb4BYfgcCeuaHVUw=="
+  "resolved" "https://registry.npmmirror.com/@algolia/logger-common/-/logger-common-4.4.0.tgz"
+  "version" "4.4.0"
+
+"@algolia/logger-console@4.4.0":
+  "integrity" "sha512-st/GUWyKvr6YM72OOfF+RmpdVGda3BPXbQ+chpntUq1WyVkyZXGjSmH1IcBVlua27GzxabwOUYON39cF3x10/g=="
+  "resolved" "https://registry.npmmirror.com/@algolia/logger-console/-/logger-console-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/logger-common" "4.4.0"
+
+"@algolia/requester-browser-xhr@4.4.0":
+  "integrity" "sha512-V3a4hXlNch355GnWaT1f5QfXhROpsjT6sd0Znq29gAhwLqfBExhLW6Khdkv5pENC0Qy7ClVhdXFrBL9QCQer1g=="
+  "resolved" "https://registry.npmmirror.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/requester-common" "4.4.0"
+
+"@algolia/requester-common@4.4.0":
+  "integrity" "sha512-jPinHlFJEFokxQ5b3JWyjQKKn+FMy0hH99PApzOgQAYOSiFRXiPEZp6LeIexDeLLu7Y3eRt/3nHvjPKa6PmRRw=="
+  "resolved" "https://registry.npmmirror.com/@algolia/requester-common/-/requester-common-4.4.0.tgz"
+  "version" "4.4.0"
+
+"@algolia/requester-node-http@4.4.0":
+  "integrity" "sha512-b7HC9C/GHxiV4+0GpCRTtjscvwarPr3dGm4CAhb6AkNjgjRcFUNr1NfsF75w3WVmzmt79/7QZihddztDdVMGjw=="
+  "resolved" "https://registry.npmmirror.com/@algolia/requester-node-http/-/requester-node-http-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/requester-common" "4.4.0"
+
+"@algolia/transporter@4.4.0":
+  "integrity" "sha512-Xxzq91DEEeKIzT3DU46n4LEyTGAKZNtSHc2H9wvIY5MYwhZwEribmXXZ6k8W1FvBvzggv3juu0SP+xwGoR7F0w=="
+  "resolved" "https://registry.npmmirror.com/@algolia/transporter/-/transporter-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/cache-common" "4.4.0"
+    "@algolia/logger-common" "4.4.0"
+    "@algolia/requester-common" "4.4.0"
+
 "@babel/helper-validator-identifier@^7.16.7":
   "integrity" "sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw=="
   "resolved" "https://registry.npmmirror.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.16.7.tgz"
@@ -49,6 +153,26 @@
   "integrity" "sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A=="
   "resolved" "https://registry.npmmirror.com/acorn/download/acorn-7.4.1.tgz"
   "version" "7.4.1"
+
+"algoliasearch@4.4.0":
+  "integrity" "sha512-Ag3wxe/nSodNl/1KbHibtkh7TNLptKE300/wnGVtszRjXivaWD6333nUpCumrYObHym/fHMHyLcmQYezXbAIWQ=="
+  "resolved" "https://registry.npmmirror.com/algoliasearch/-/algoliasearch-4.4.0.tgz"
+  "version" "4.4.0"
+  dependencies:
+    "@algolia/cache-browser-local-storage" "4.4.0"
+    "@algolia/cache-common" "4.4.0"
+    "@algolia/cache-in-memory" "4.4.0"
+    "@algolia/client-account" "4.4.0"
+    "@algolia/client-analytics" "4.4.0"
+    "@algolia/client-common" "4.4.0"
+    "@algolia/client-recommendation" "4.4.0"
+    "@algolia/client-search" "4.4.0"
+    "@algolia/logger-common" "4.4.0"
+    "@algolia/logger-console" "4.4.0"
+    "@algolia/requester-browser-xhr" "4.4.0"
+    "@algolia/requester-common" "4.4.0"
+    "@algolia/requester-node-http" "4.4.0"
+    "@algolia/transporter" "4.4.0"
 
 "amdefine@>=0.0.4":
   "integrity" "sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU="
@@ -600,6 +724,14 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hexo-algoliasearch@^1.0.0":
+  "integrity" "sha512-JcJ4ecv23LDvKLOaqRSQP9eIDX82XSp24c6LzumThzE0XmhQpTPsIWj0PN4dHnAZFZxYu1axJfakKLqiNzLwXA=="
+  "resolved" "https://registry.npmmirror.com/hexo-algoliasearch/-/hexo-algoliasearch-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "algoliasearch" "4.4.0"
+    "striptags" "3.1.1"
+
 "hexo-cli@^4.0.0":
   "integrity" "sha1-S7K/EaMPrmAfL1OsDLgz/uMYdkk="
   "resolved" "https://registry.nlark.com/hexo-cli/download/hexo-cli-4.3.0.tgz"
@@ -674,6 +806,14 @@
   dependencies:
     "hexo-pagination" "1.0.0"
     "timsort" "^0.3.0"
+
+"hexo-generator-search@^2.4.3":
+  "integrity" "sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz"
+  "version" "2.4.3"
+  dependencies:
+    "nunjucks" "^3.0.1"
+    "utils-merge" "^1.0.0"
 
 "hexo-generator-sitemap@^2.2.0":
   "integrity" "sha512-WoS/GpdrazoiFuhZXS3Qnb22L0uaiKHHWefcsoE7JLjh8WsksFom4v2FoNhr1RIYwFV7SudQFs91P5xcW+Gfow=="
@@ -1217,7 +1357,7 @@
   "resolved" "https://registry.nlark.com/normalize-path/download/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.0.0", "nunjucks@^3.1.6", "nunjucks@^3.2.1":
+"nunjucks@^3.0.0", "nunjucks@^3.0.1", "nunjucks@^3.1.6", "nunjucks@^3.2.1":
   "integrity" "sha1-GzNhUkcpDpTigmO12FXs52VkijE="
   "resolved" "https://registry.npmmirror.com/nunjucks/download/nunjucks-3.2.3.tgz"
   "version" "3.2.3"
@@ -1581,6 +1721,11 @@
   dependencies:
     "min-indent" "^1.0.0"
 
+"striptags@3.1.1":
+  "integrity" "sha512-3HVl+cOkJOlNUDAYdoCAfGx/fzUzG53YvJAl3RYlTvAcBdPqSp1Uv4wrmHymm7oEypTijSQqcqplW8cz0/r/YA=="
+  "resolved" "https://registry.npmmirror.com/striptags/-/striptags-3.1.1.tgz"
+  "version" "3.1.1"
+
 "stylus@^0.54.8":
   "integrity" "sha512-vr54Or4BZ7pJafo2mpf0ZcwA74rpuYCZbxrHBsH8kbcXOwSfvBFwsRfpGO5OD5fhG5HDCFW737PKaawI7OqEAg=="
   "resolved" "https://registry.npmmirror.com/stylus/download/stylus-0.54.8.tgz"
@@ -1693,7 +1838,7 @@
   "resolved" "https://registry.npmmirror.com/urix/download/urix-0.1.0.tgz"
   "version" "0.1.0"
 
-"utils-merge@1.0.1":
+"utils-merge@^1.0.0", "utils-merge@1.0.1":
   "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
   "resolved" "https://registry.nlark.com/utils-merge/download/utils-merge-1.0.1.tgz"
   "version" "1.0.1"

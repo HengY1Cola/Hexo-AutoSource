@@ -134,3 +134,9 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# search
+search:
+  path: search.xml
+  field: post
+  content: true
