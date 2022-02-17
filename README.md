@@ -32,3 +32,12 @@
 - 谷歌分析延迟改为[百度分析](https://tongji.baidu.com/sc-web)
 
 </details>
+
+<details>
+  <summary>20220218</summary>
+  <h3>加入搜索系统，更新留言板</h3>
+  
+  - 加入了本地搜索系统
+
+  - 留言板上BB了两句
+</details>
