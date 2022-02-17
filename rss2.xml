@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>恒HengY1毅</title>
+    <link>http://hengy1.top/</link>
+    
+    <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>Web安全是理想,开发是生活</description>
+    <pubDate>Thu, 17 Feb 2022 13:33:50 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Pygame实现小球躲避</title>
+      <link>http://hengy1.top/2022/01/26/Pygame%E5%AE%9E%E7%8E%B0%E5%B0%8F%E7%90%83%E8%BA%B2%E9%81%BF/</link>
+      <guid>http://hengy1.top/2022/01/26/Pygame%E5%AE%9E%E7%8E%B0%E5%B0%8F%E7%90%83%E8%BA%B2%E9%81%BF/</guid>
+      <pubDate>Wed, 26 Jan 2022 20:10:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;这学期的Python课，要写代码是真的多…&lt;/p&gt;
+&lt;p&gt;课程实验一是一个五子棋，但是发了代码。&lt;/p&gt;
+&lt;p&gt;至于代码质量嘛～  我直接全部根据自己划分的结构改了&lt;/p&gt;
+&lt;p&gt;这里吐槽下 (真的发下来的代码 惨不忍睹</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/Python/">Python</category>
+      
+      
+      
+      <comments>http://hengy1.top/2022/01/26/Pygame%E5%AE%9E%E7%8E%B0%E5%B0%8F%E7%90%83%E8%BA%B2%E9%81%BF/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
