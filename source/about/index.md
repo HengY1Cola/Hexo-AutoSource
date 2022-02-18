@@ -2,7 +2,7 @@
 title: 关于我
 date: 2022-01-26 20:40:41
 comments: false
-top_img: "https://dailypic.hengyimonster.top/hexo/about.webp"
+top_img: /img/about.webp
 aside: false
 ---
 

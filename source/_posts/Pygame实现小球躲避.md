@@ -1,10 +1,11 @@
 ---
 title: Pygame实现小球躲避
-date: 2022-01-26 20:10:25
 categories: Python
-keywords: "PyGame"
+keywords: PyGame
 top_img: /img/default.webp
 cover: /img/pygame.webp
+abbrlink: 72f74028
+date: 2022-01-26 20:10:25
 ---
 
 ##  前言：
@@ -20,8 +21,6 @@ cover: /img/pygame.webp
 我改了快4个小时 后面功能不想加了...
 
 这次是自己写嘛～ 那就写个想样的。
-
-首发于 https://sleepymonster.cn
 
 ##  结构划分
 
@@ -318,7 +317,7 @@ def main(ladderNum):
 
 ###  效果图：
 
-<img src="https://dailypic.hengyimonster.top/image-20211218195851820.png" alt="image-20211218195851820" style="zoom:40%;" />
+<img src="/img/ballResult.webp" alt="效果图" style="zoom:40%;" />
 
 ###   如何食用：
 

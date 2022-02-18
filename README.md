@@ -21,16 +21,11 @@
 ##  更新日志
 
 <details>
-  <summary>20220217</summary>
-  <h3>初始化博客网站，实现自动化部署</h3>
-  <p>今天域名终于审批下来了耶～</br>在原来的基础上开始部署公网系统。</p>
+  <summary>20220219</summary>
+  <h3>加入URL算法</h3>
 
-- 添加网站分析统计，使用[谷歌分析](https://www.google.com/analytics/)
-- 使用`Twikoo`作为[网站的评价系统](https://twikoo.js.org/quick-start.html#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E7%BD%B2)
-- 添加了Akismet 反垃圾服务
-- 添加了即时的[微信消息推送](https://sct.ftqq.com/)
-- 谷歌分析延迟改为[百度分析](https://tongji.baidu.com/sc-web)
-
+  - 加入了hexo-abbrlink简化
+  - 加入文章 Js逆向练习制造Token与Id
 </details>
 
 <details>
@@ -45,4 +40,17 @@
   - 上CDN加速以及强制跳转HTTPS
   - 首页图片更新
   - 创建文章 数字取证究竟如何入门
+</details>
+
+<details>
+  <summary>20220217</summary>
+  <h3>初始化博客网站，实现自动化部署</h3>
+  <p>今天域名终于审批下来了耶～</br>在原来的基础上开始部署公网系统。</p>
+
+- 添加网站分析统计，使用[谷歌分析](https://www.google.com/analytics/)
+- 使用`Twikoo`作为[网站的评价系统](https://twikoo.js.org/quick-start.html#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E7%BD%B2)
+- 添加了Akismet 反垃圾服务
+- 添加了即时的[微信消息推送](https://sct.ftqq.com/)
+- 谷歌分析延迟改为[百度分析](https://tongji.baidu.com/sc-web)
+
 </details>
