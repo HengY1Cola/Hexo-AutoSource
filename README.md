@@ -42,4 +42,5 @@
   - 添加友链规则
   - 引入[iconfont](https://www.iconfont.cn/)
   - 代码片段更换为等宽字体
+  - 上CDN加速以及强制跳转HTTPS
 </details>
