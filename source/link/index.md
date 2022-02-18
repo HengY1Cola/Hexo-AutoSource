@@ -30,7 +30,7 @@ top_img: "https://dailypic.hengyimonster.top/hexo/link.webp"
 >
 > 头像地址: [Github头像才比较符合🐶](https://avatars.githubusercontent.com/u/98681454?v=4)
 >
-> 座右铭: 没有最好，只有更好
+> 座右铭: 没有最强，只有更强
 
 </details>
 

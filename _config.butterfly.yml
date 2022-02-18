@@ -37,10 +37,10 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/HengY1Sky || Github
-  fas fa-envelope: mailto:2911567026@qq.com || Email
-  fas fa-blog: https://blog.csdn.net/weixin_51485807 || CSDN
-  fas fa-rss: /rss2.xml || RSS
+  iconfont icon-githublogo: https://github.com/HengY1Sky || Github
+  iconfont icon-email-fill: mailto:2911567026@qq.com || Email
+  iconfont icon-csdn: https://blog.csdn.net/weixin_51485807 || CSDN
+  iconfont icon-rss: /rss2.xml || RSS
 
 # search (搜索)
 # --------------------------------------
@@ -585,7 +585,7 @@ font:
   global-font-size:
   code-font-size:
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
-  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: Courier, consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -835,7 +835,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_3190056_2qasj1id8q1.css">
   bottom:
     # - <script src="xxxx"></script>
 

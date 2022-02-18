@@ -40,4 +40,6 @@
   - 加入了本地搜索系统
   - 留言板上BB了两句
   - 添加友链规则
+  - 引入[iconfont](https://www.iconfont.cn/)
+  - 代码片段更换为等宽字体
 </details>
