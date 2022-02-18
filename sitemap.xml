@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hengy1.top/2022/01/26/Pygame%E5%AE%9E%E7%8E%B0%E5%B0%8F%E7%90%83%E8%BA%B2%E9%81%BF/</loc>
+    <loc>http://hengy1.top/article/6d98b2b4.html</loc>
     
     <lastmod>2022-02-18</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>http://hengy1.top/2022/02/18/%E6%95%B0%E5%AD%97%E5%8F%96%E8%AF%81%E7%A9%B6%E7%AB%9F%E6%80%8E%E4%B9%88%E5%85%A5%E9%97%A8/</loc>
+    <loc>http://hengy1.top/article/72f74028.html</loc>
+    
+    <lastmod>2022-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://hengy1.top/article/8679ce28.html</loc>
     
     <lastmod>2022-02-18</lastmod>
     
@@ -67,14 +76,14 @@
 
   
   <url>
-    <loc>http://hengy1.top/categories/Python/</loc>
+    <loc>http://hengy1.top/categories/%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://hengy1.top/categories/%E5%AE%89%E5%85%A8/</loc>
+    <loc>http://hengy1.top/categories/Python/</loc>
     <lastmod>2022-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
