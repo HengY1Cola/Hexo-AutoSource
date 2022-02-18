@@ -9,25 +9,18 @@ aside: false
 
 ---
 
-{% note 'fas fa-bullhorn' flat %}
 别无聊来打小破站，卑微站长精力有限，不想没事修修补补。
-{% endnote %}
 
-{% note 'fas fa-bullhorn' flat %}
 评论区请勿注水，维护良好环境，靠我也靠你。
-{% endnote %}
 
-{% note  'fas fa-bullhorn' flat %}
+这个破站不仅会分享技术，还会分享一点生活，多多交流。
+
 欢迎大佬/同辈与我交流讨论，一起进步，共勉。
-{% endnote %}
 
 {% note red 'far fa-hand-scissors' flat %}
-禁止钓鱼/XSS/SQL注入等操作，放在云上的，没啥价值。
+禁止 钓鱼 / XSS / SQL注入 / 广告 等操作，放在云上的，没啥价值。
 {% endnote %}
 
-{% note green 'fas fa-battery-half' flat %}
-这个破站不仅会分享技术，还会分享一点生活，多多交流
-{% endnote %}
 
 ##  评论系统：
 
@@ -45,5 +38,5 @@ aside: false
 
 
 {% note green 'fas fa-bullhorn' flat %}
-最后祝大家生活愉快，万事顺利。
+最后祝大家生活愉快，万事如意。
 {% endnote %}
