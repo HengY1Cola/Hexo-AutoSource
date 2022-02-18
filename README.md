@@ -26,6 +26,7 @@
 
   - 加入了hexo-abbrlink简化
   - 加入文章 Js逆向练习制造Token与Id
+  - 添加百度sitemap
 </details>
 
 <details>
