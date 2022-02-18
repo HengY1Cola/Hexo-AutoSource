@@ -3,8 +3,8 @@ title: Pygame实现小球躲避
 date: 2022-01-26 20:10:25
 categories: Python
 keywords: "PyGame"
-top_img: "https://dailypic.hengyimonster.top/hexo/default.webp"
-cover: "https://dailypic.hengyimonster.top/hexo/pygame.webp"
+top_img: /img/default.webp
+cover: /img/pygame.webp
 ---
 
 ##  前言：

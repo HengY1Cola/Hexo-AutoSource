@@ -43,4 +43,5 @@
   - 引入[iconfont](https://www.iconfont.cn/)
   - 代码片段更换为等宽字体
   - 上CDN加速以及强制跳转HTTPS
+  - 首页图片更新
 </details>
