@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://hengy1.top/article/86cd1cda.html</loc>
+    
+    <lastmod>2022-02-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://hengy1.top/article/6d98b2b4.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>http://hengy1.top/article/72f74028.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +31,7 @@
   <url>
     <loc>http://hengy1.top/article/8679ce28.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +40,7 @@
   <url>
     <loc>http://hengy1.top/about/index.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +49,7 @@
   <url>
     <loc>http://hengy1.top/leave/index.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +58,7 @@
   <url>
     <loc>http://hengy1.top/link/index.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,7 +67,7 @@
   <url>
     <loc>http://hengy1.top/service/index.html</loc>
     
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +76,7 @@
 
   <url>
     <loc>http://hengy1.top/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -76,15 +85,22 @@
 
   
   <url>
+    <loc>http://hengy1.top/categories/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2022-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://hengy1.top/categories/%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://hengy1.top/categories/Python/</loc>
-    <lastmod>2022-02-18</lastmod>
+    <lastmod>2022-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
