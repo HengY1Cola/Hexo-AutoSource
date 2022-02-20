@@ -9,8 +9,36 @@
     <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Sun, 20 Feb 2022 05:51:05 GMT</pubDate>
+    <pubDate>Sun, 20 Feb 2022 15:53:17 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>日常中的Git怎么使用</title>
+      <link>http://hengy1.top/article/e996634a.html</link>
+      <guid>http://hengy1.top/article/e996634a.html</guid>
+      <pubDate>Sun, 20 Feb 2022 22:03:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;hr&gt;
+&lt;h2 id=&quot;日常中的Git怎么使用&quot;&gt;日常中的Git怎么使用&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;git&lt;/code&gt;是真的香呀，主要是好管理，用着方便。&lt;/p&gt;
+&lt;p&gt;我的git学习路程就是：学了 -&amp;gt; desktop点点点 -&amp;gt; 三剑客 -&amp;gt;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/e996634a.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Docker日常究竟要怎么用</title>
@@ -106,7 +134,7 @@
       
       
       
-      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      <category domain="http://hengy1.top/categories/Python/">Python</category>
       
       
       
