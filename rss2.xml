@@ -9,7 +9,7 @@
     <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Sat, 19 Feb 2022 16:02:33 GMT</pubDate>
+    <pubDate>Sun, 20 Feb 2022 05:51:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,11 +22,7 @@
         
           
           
-      <description>&lt;h1&gt;Docker日常究竟要怎么用&lt;/h1&gt;
-&lt;p&gt;最近在考C4认证，结果模拟卡在了Docker部署。我真的十分无语😓&lt;/p&gt;
-&lt;p&gt;我在Windows上面编辑的，踩了好多坑，耗了很多时间。&lt;/p&gt;
-&lt;p&gt;趁着下周考试前来写一下Docker在日常只能够究竟要怎么用：&lt;/p&gt;
-</description>
+      <description>&lt;h2</description>
           
         
       
@@ -92,6 +88,33 @@
     </item>
     
     <item>
+      <title>学习Python高级编程到asyncio并发实践</title>
+      <link>http://hengy1.top/article/4ba9700a.html</link>
+      <guid>http://hengy1.top/article/4ba9700a.html</guid>
+      <pubDate>Fri, 04 Feb 2022 19:27:37 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：-3&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;今天也顺利把&lt;strong&gt;Python3高级核心技术97讲&lt;/strong&gt;看完了&lt;/p&gt;
+&lt;p&gt;课程链接我也贴一下：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/4ba9700a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Pygame实现小球躲避</title>
       <link>http://hengy1.top/article/72f74028.html</link>
       <guid>http://hengy1.top/article/72f74028.html</guid>
@@ -117,6 +140,31 @@
       
       
       <comments>http://hengy1.top/article/72f74028.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>ClashX测速失败以及Mac终端走代理</title>
+      <link>http://hengy1.top/article/567e1422.html</link>
+      <guid>http://hengy1.top/article/567e1422.html</guid>
+      <pubDate>Tue, 09 Mar 2021 21:46:03 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/567e1422.html#disqus_thread</comments>
       
     </item>
     
