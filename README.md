@@ -26,6 +26,9 @@
 
   - 修正了原文的日期
   - 加入文章 Docker日常究竟要怎么用
+  - 更新文章 Docker日常究竟要怎么用
+  - 加入打赏功能
+  - 加入文章 学习Python高级编程到asyncio并发实践
 </details>
 
 <details>

@@ -8,7 +8,7 @@ abbrlink: 86cd1cda
 date: 2022-02-19 23:46:05
 ---
 
-#  Docker日常究竟要怎么用
+##  Docker日常究竟要怎么用
 
 最近在考C4认证，结果模拟卡在了Docker部署。我真的十分无语😓
 
@@ -34,6 +34,16 @@ date: 2022-02-19 23:46:05
 - Docker上传仓库
 - docker-compose的编写与部署
 - 常用命令
+
+## 更新
+
+{% note red 'fas fa-bullhorn' flat %}
+
+重新写了下DockerFile与docker-compose的文件
+找到了相比较depends_on等待Mysql打通再链接的脚本
+这个很好的解决了 {% btn 'https://github.com/Eficode/wait-for',点击查看,far fa-hand-point-right %}
+
+{% endnote %}
 
 ##  DockerFile使用
 
@@ -62,20 +72,22 @@ date: 2022-02-19 23:46:05
 
 ```dockerfile
 FROM python:3.9.5-slim
-WORKDIR /
-COPY requirements.txt /
-COPY utils /utils
-COPY src /src
-COPY repo /repo
-COPY model /model
-COPY flask /flask
-COPY __init__.py /
-ENV FLASK_APP=/flask/app.py
-ENV PYTHONPATH /
+WORKDIR /pythonApp
+COPY requirements.txt /pythonApp
+COPY utils /pythonApp/utils
+COPY src /pythonApp/src
+COPY repo /pythonApp/repo
+COPY model /pythonApp/model
+COPY flaskApp /pythonApp/flaskApp
+COPY __init__.py /pythonApp
+COPY wait-for /
+ENV FLASK_APP=/pythonApp/flaskApp/app.py
+ENV PYTHONPATH /pythonApp
 EXPOSE 8080
 RUN pip install --upgrade pip && \
-    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
-CMD flask run; python /src/app.py
+    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple && \
+    apt-get -q update && \
+    apt-get -qy install netcat
 ```
 
 ---
@@ -119,22 +131,37 @@ $ docker push <hub-user>/<repo-name>:<tag> # 传到哪个仓库去 不写Tag就�
 名字也是写死的 `docker-compose.yml`
 
 ```yaml
-version: "0.1"
+version: '2'
 services:
-  mysql-server:
-    image: mysql:latest
+  mysql:
+    image: mysql:5.7.31
     networks:
-      - demo-network
-
-  flask-server:
-    image: hengyisky/daily:latest
-    networks:
-      - demo-network
+      small:
+        ipv4_address: 172.19.0.3
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
     ports:
-      - 8080:8080
+      - "3306:3306"
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  web:
+    image: hengyisky/daily:v0.1
+    networks:
+      small:
+        ipv4_address: 172.19.0.4
+    ports:
+     - "8080:8080"
+    links:
+     - mysql:mysql
+    depends_on:
+     - mysql
+    command: sh -c '/wait-for mysql:3306 -- python /pythonApp/src/app.py; python /pythonApp/flaskApp/run.py'
 
 networks:
-  demo-network:
+  small:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.19.0.0/16
 ```
 
 这里就是吧 mysql 与自己的环境部署到一个子网里面，然后暴露端口直接用就行了。
