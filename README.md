@@ -27,6 +27,7 @@
   - 添加了403 503页面
   - 添加文章 Ubuntu纯命令行走Clash终端代理-Linux同理
   - 压缩网站文件
+  - 添加文章 Python浅谈多线程 Go实现基础密码加密解密
 </details>
 
 <details>
