@@ -9,8 +9,34 @@
     <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Tue, 22 Feb 2022 11:30:28 GMT</pubDate>
+    <pubDate>Tue, 22 Feb 2022 13:05:05 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Ubuntu纯命令行走Clash终端代理(Linux同理)</title>
+      <link>http://hengy1.top/article/3dadfa74.html</link>
+      <guid>http://hengy1.top/article/3dadfa74.html</guid>
+      <pubDate>Tue, 22 Feb 2022 19:48:30 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;Ubuntu纯命令行走Clash代理-Linux同理&quot;&gt;Ubuntu纯命令行走Clash代理(Linux同理)&lt;/h2&gt;
+&lt;div class=&quot;note green icon flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/3dadfa74.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>日常中的Git怎么使用</title>

@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Ubuntu纯命令行走Clash终端代理(Linux同理)</title>
+      <link href="/article/3dadfa74.html"/>
+      <url>/article/3dadfa74.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Ubuntu纯命令行走Clash代理-Linux同理">Ubuntu纯命令行走Clash代理(Linux同理)</h2><div class="note green icon flat"><i class="note-icon fas fa-bullhorn"></i><p>广告 ：<a href="https://hengy1.top/article/567e1422.html">https://hengy1.top/article/567e1422.html</a></p></div><h2 id="布置环境">布置环境</h2><p>到 <a href="https://github.com/Dreamacro/clash/releases">https://github.com/Dreamacro/clash/releases</a> 找到最新版本</p><blockquote><p>这里吐槽下：可能一直拉不下来，手动下载然后ftp传上来</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建环境</span></span><br><span class="line">$ mkdir clash</span><br><span class="line">$ <span class="built_in">cd</span> clash</span><br><span class="line"><span class="comment"># 拉取下来</span></span><br><span class="line">$ wget https://github.com/Dreamacro/clash/releases/download/v1.9.0/clash-linux-amd64-v1.9.0.gz</span><br><span class="line">$ gzip -d clash-linux-amd64-v1.9.0.gz</span><br><span class="line">$ mv clash-linux-amd64-v1.9.0.gz clash</span><br><span class="line"><span class="comment"># 这里clash为二进制可以运行文件了</span></span><br><span class="line">$ chomd 755 clash</span><br></pre></td></tr></table></figure><h2 id="传入配置">传入配置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成默认配置</span></span><br><span class="line">$ ./clash -d .  <span class="comment"># 默认配置</span></span><br><span class="line"><span class="comment"># 拉取机场配置</span></span><br><span class="line">$ wget xxxx <span class="comment"># 要么拉下来 要么自己拷贝上来</span></span><br><span class="line"><span class="comment"># 注意： 名称为：config.yaml</span></span><br><span class="line">$ ./clash -d . <span class="comment"># 就开始加载你的配置了</span></span><br></pre></td></tr></table></figure><img src="/img/mics/image-20220222194004626.webp" alt="image-20220222194004626" style="zoom:85%;" /><h2 id="日常使用">日常使用</h2><p>你会发现这个已取消就失效了，下面我们添加到后台(建议为root用户)</p><ol><li><code>vim ~/..bashrc  </code>开始准备命令并把下面的写进入</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> clash_start=<span class="string">&quot;screen -S clash /home/xxx/clash/clash -d /home/xxx/clash/&quot;</span></span><br><span class="line"><span class="built_in">alias</span> clash_stop=<span class="string">&quot;pkill clash&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> proxy_on=<span class="string">&quot;export https_proxy=127.0.0.1:7890 &amp;&amp; export http_proxy=127.0.0.1:7890&quot;</span></span><br><span class="line"><span class="built_in">alias</span> proxy_off=<span class="string">&quot;unset http_proxy https_proxy&quot;</span></span><br></pre></td></tr></table></figure><ol start="2"><li><code>source ~/..bashrc </code> 重新载入</li><li><code>clash_start</code>会进入screen 按 <code>ctrl + a + d</code>退出后台</li><li><code>proxy_on</code>开启代理</li><li><code>curl https://www.youtube.com/</code>会发现马上返回结果</li></ol><h2 id="github加速">github加速</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global http.proxy <span class="string">&#x27;http://127.0.0.1:7890&#x27;</span></span><br><span class="line">$ git config --global https.proxy <span class="string">&#x27;https://127.0.0.1:7890&#x27;</span></span><br></pre></td></tr></table></figure><div class="note pink icon flat"><i class="note-icon fas fa-car-crash"></i><p>恭喜：速度起来了！<br>科学上网，规范行使。</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>日常中的Git怎么使用</title>
       <link href="/article/e996634a.html"/>
       <url>/article/e996634a.html</url>
