@@ -9,8 +9,60 @@
     <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Tue, 22 Feb 2022 13:05:05 GMT</pubDate>
+    <pubDate>Tue, 22 Feb 2022 15:53:43 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Python浅谈多线程</title>
+      <link>http://hengy1.top/article/6e07425f.html</link>
+      <guid>http://hengy1.top/article/6e07425f.html</guid>
+      <pubDate>Tue, 22 Feb 2022 23:46:21 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/Python/">Python</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/6e07425f.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Go实现基础密码加密解密</title>
+      <link>http://hengy1.top/article/9f3d09de.html</link>
+      <guid>http://hengy1.top/article/9f3d09de.html</guid>
+      <pubDate>Tue, 22 Feb 2022 23:38:46 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;自己没事查询资料弄了个Go加密解密的文件，方便在日常中直接调用&lt;/p&gt;
+&lt;div class=&quot;note green icon flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%AE%89%E5%85%A8/">安全</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/9f3d09de.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Ubuntu纯命令行走Clash终端代理(Linux同理)</title>
@@ -151,7 +203,7 @@
         
           
           
-      <description>&lt;h2 id=&quot;前言：-3&quot;&gt;前言：&lt;/h2&gt;
+      <description>&lt;h2 id=&quot;前言：-5&quot;&gt;前言：&lt;/h2&gt;
 &lt;p&gt;今天也顺利把&lt;strong&gt;Python3高级核心技术97讲&lt;/strong&gt;看完了&lt;/p&gt;
 &lt;p&gt;课程链接我也贴一下：&lt;a</description>
           
@@ -178,7 +230,7 @@
         
           
           
-      <description>&lt;h2 id=&quot;前言：-2&quot;&gt;前言：&lt;/h2&gt;
+      <description>&lt;h2 id=&quot;前言：-3&quot;&gt;前言：&lt;/h2&gt;
 &lt;p&gt;这学期的Python课，要写代码是真的多…&lt;/p&gt;
 &lt;p&gt;课程实验一是一个五子棋，但是发了代码。&lt;/p&gt;
 &lt;p&gt;至于代码质量嘛～  我直接全部根据自己划分的结构改了&lt;/p&gt;
