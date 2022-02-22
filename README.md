@@ -25,6 +25,8 @@
   <h3>添加403 503</h3>
 
   - 添加了403 503页面
+  - 添加文章 Ubuntu纯命令行走Clash终端代理-Linux同理
+  - 压缩网站文件
 </details>
 
 <details>

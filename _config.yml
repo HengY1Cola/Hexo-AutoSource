@@ -146,3 +146,23 @@ search:
   path: search.xml
   field: post
   content: true
+
+
+# hexo-neat 博文压缩
+neat_enable: true
+neat_html:
+ enable: true
+ exclude:
+neat_css:
+ enable: true
+ exclude:
+   - '*/*.min.css'
+neat_js:
+ enable: true
+ mangle: true
+ output:
+ compress:
+ exclude:
+   - '**/*.min.js'
+   - '**/jquery.fancybox.pack.js'
+   - '**/index.js'
