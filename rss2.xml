@@ -9,7 +9,7 @@
     <atom:link href="http://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Thu, 24 Feb 2022 03:33:06 GMT</pubDate>
+    <pubDate>Thu, 24 Feb 2022 03:58:47 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -203,7 +203,7 @@
         
           
           
-      <description>&lt;h2 id=&quot;前言：-5&quot;&gt;前言：&lt;/h2&gt;
+      <description>&lt;h2 id=&quot;前言：-6&quot;&gt;前言：&lt;/h2&gt;
 &lt;p&gt;今天也顺利把&lt;strong&gt;Python3高级核心技术97讲&lt;/strong&gt;看完了&lt;/p&gt;
 &lt;p&gt;课程链接我也贴一下：&lt;a</description>
           
@@ -217,6 +217,31 @@
       
       
       <comments>http://hengy1.top/article/4ba9700a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>MAC上RabbitMQ从安装到用GO快速实现搬移</title>
+      <link>http://hengy1.top/article/5fe856cc.html</link>
+      <guid>http://hengy1.top/article/5fe856cc.html</guid>
+      <pubDate>Mon, 31 Jan 2022 22:17:16 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/5fe856cc.html#disqus_thread</comments>
       
     </item>
     
@@ -246,6 +271,34 @@
       
       
       <comments>http://hengy1.top/article/72f74028.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>付费视频下载到本地,关于ts与m3u8文件下载后的复盘总结</title>
+      <link>http://hengy1.top/article/ba582517.html</link>
+      <guid>http://hengy1.top/article/ba582517.html</guid>
+      <pubDate>Sat, 11 Sep 2021 18:08:32 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：-5&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;一切的起因：因为某个同学在某斯上面的会员快要过期了，想把视频下载到本地观看。&lt;br&gt;
+我想这还不简单？愉快的接下了任务，接下来，我想我是笑不出来了，但是走过来还是值得。&lt;/p&gt;
+&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="http://hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      
+      <comments>http://hengy1.top/article/ba582517.html#disqus_thread</comments>
       
     </item>
     
