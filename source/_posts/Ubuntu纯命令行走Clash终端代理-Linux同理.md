@@ -1,6 +1,6 @@
 ---
 title: Ubuntu纯命令行走Clash终端代理(Linux同理)
-categories: 开发
+categories: 分享
 keywords: Js逆向
 top_img: /img/7978943.webp
 cover: /img/clashLogo.png
