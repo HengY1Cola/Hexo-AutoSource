@@ -34,6 +34,6 @@ comments: false
 5. 邮件取消/申请为同一接口
 6. 激活邮件发送间隔存在一定限制
 
-点击查看文档：{% btn '/service/JnuWater',这里啦～,far fa-hand-point-right,green outline %}
+点击查看文档：{% btn '/service/JnuWater.html',这里啦～,far fa-hand-point-right,green outline %}
 
 ## 敬请期待
