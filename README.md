@@ -26,6 +26,7 @@
 
   - 更新了服务页面
   - 添加了水费接口
+  - 迁移 MAC上RabbitMQ从安装到用GO快速实现搬移
 </details>
 
 <details>
