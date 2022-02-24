@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /leave/
+Allow: /link/
+Allow: /about/
+Allow: /service/
+Allow: /categories/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /fancybox/
+
+Sitemap: https://hengy1.top/sitemap.xml
+Sitemap: https://hengy1.top/baidusitemap.xml
