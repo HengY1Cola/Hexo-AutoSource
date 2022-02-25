@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220225</summary>
+  <h3>添加文章</h3>
+
+  - 添加了Fail2ban防御
+</details>
+
+<details>
   <summary>20220224</summary>
   <h3>添加介绍</h3>
 
