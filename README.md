@@ -21,7 +21,14 @@
 ##  更新日志
 
 <details>
-  <summary>20220225</summary>
+  <summary>20220227</summary>
+  <h3>添加文章</h3>
+
+  - 添加Ubuntu下Corntab找出报错原因
+</details>
+
+<details>
+  <summary>20220226</summary>
   <h3>添加自我介绍</h3>
 
   - 添加自我介绍
