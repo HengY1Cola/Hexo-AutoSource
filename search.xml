@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Ubuntu下Corntab找出报错原因</title>
+      <link href="/article/2c7b2295.html"/>
+      <url>/article/2c7b2295.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因：">起因：</h2><p>事情的起因是：我的自动打卡在我加入了<code>Firefox拓展</code>之后开始失效了</p><p>我手动执行完完全全Ok的，一到自动运行就GG了</p><p>然后我设置每分钟运行一次观察CPU状态发现<code>Firefox</code>会启动但是几秒后就没了</p><p>好家伙，去找日志啥都没有。经过我的捣鼓直接放答案。</p><h2 id="打开Crontab日志">打开Crontab日志</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vi /etc/rsyslog.d/50-default.conf</span><br><span class="line"><span class="comment"># 把cron.*前面的注释去掉</span></span><br><span class="line">:wq</span><br><span class="line"></span><br><span class="line">$ sudo service rsyslog restart</span><br><span class="line">$ <span class="built_in">cd</span> /var/<span class="built_in">log</span></span><br><span class="line">$ cat cron.log</span><br></pre></td></tr></table></figure><p>到这里只能查看到执行日志，也就是说看到执行状况而看不到报错</p><h2 id="安装postfix">安装postfix</h2><p>我想起了在Linux下每次执行完毕后会有个打印说的是到<code>/var/mail</code>，那里会详细说明执行情况</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install postfix</span><br><span class="line"><span class="comment"># 会进入一个设置界面</span></span><br><span class="line"><span class="comment"># 全部默认然后全部选择OK/SELECT啥的</span></span><br><span class="line">$ crontab -e </span><br><span class="line"><span class="comment"># MAILTO=example@gmail.com 写入文件</span></span><br><span class="line"><span class="comment"># 等待执行</span></span><br><span class="line">$ <span class="built_in">cd</span> /var/mail</span><br><span class="line">$ cat ubuntu</span><br></pre></td></tr></table></figure><p>到这里查看对应用户的文件就能详细看到执行情况了</p><h2 id="结果">结果</h2><p>我的问题是在crontab下执行，路径文件找不到，我直接cp过去就成功了。</p><p>花了快一个小时捣鼓😭</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Gin+Fail2ban+Cloudfare实现防爆破扫描</title>
       <link href="/article/a637161.html"/>
       <url>/article/a637161.html</url>
