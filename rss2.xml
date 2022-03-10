@@ -9,8 +9,34 @@
     <atom:link href="https://hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Fri, 04 Mar 2022 05:31:22 GMT</pubDate>
+    <pubDate>Thu, 10 Mar 2022 07:01:52 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>M1芯片从零安装Burpsuit</title>
+      <link>https://hengy1.top/article/385adb75.html</link>
+      <guid>https://hengy1.top/article/385adb75.html</guid>
+      <pubDate>Thu, 10 Mar 2022 14:28:25 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1&gt;M1芯片从零安装Burpsuit&lt;/h1&gt;
+&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      
+      <comments>https://hengy1.top/article/385adb75.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Ubuntu下Corntab找出报错原因</title>
