@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220310</summary>
+  <h3>发布文章</h3>
+
+  - 添加M1芯片从零安装Burpsuit
+</details>
+
+<details>
   <summary>20220227</summary>
   <h3>添加文章</h3>
 
