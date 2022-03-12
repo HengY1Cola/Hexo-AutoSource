@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220312</summary>
+  <h3>发布文章</h3>
+
+  - 添加M1芯片实现Kail虚拟机(无Parallels)
+</details>
+
+<details>
   <summary>20220310</summary>
   <h3>发布文章</h3>
 
