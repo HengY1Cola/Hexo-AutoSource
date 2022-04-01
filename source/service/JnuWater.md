@@ -1,7 +1,7 @@
 ---
 title: 宿舍水费预警系统
 date: 2022-02-24 10:07:33
-top_img: /img/service.webp
+top_img: /img/2407565.webp
 aside: false
 comments: false
 ---
