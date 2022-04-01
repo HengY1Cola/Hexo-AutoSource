@@ -21,86 +21,45 @@
 ##  更新日志
 
 <details>
-  <summary>20220312</summary>
-  <h3>发布文章</h3>
+  <summary>20220401</summary>
+  <h3>添加宿舍水费充值</h3>
 
-  - 添加M1芯片实现Kail虚拟机(无Parallels)
+  - 添加宿舍水费充值描述
 </details>
 
 <details>
-  <summary>20220310</summary>
-  <h3>发布文章</h3>
+  <summary>202203</summary>
+  <h3>3月份集合</h3>
 
+  - 添加M1芯片实现Kail虚拟机(无Parallels)
   - 添加M1芯片从零安装Burpsuit
 </details>
 
 <details>
-  <summary>20220227</summary>
-  <h3>添加文章</h3>
+  <summary>202202</summary>
+  <h3>2月份集合</h3>
 
   - 添加Ubuntu下Corntab找出报错原因
-</details>
-
-<details>
-  <summary>20220226</summary>
-  <h3>添加自我介绍</h3>
-
   - 添加自我介绍
-</details>
-
-<details>
-  <summary>20220225</summary>
-  <h3>添加文章</h3>
-
   - 添加了Fail2ban防御
-</details>
-
-<details>
-  <summary>20220224</summary>
-  <h3>添加介绍</h3>
-
   - 更新了服务页面
   - 添加了水费接口
   - 迁移 MAC上RabbitMQ从安装到用GO快速实现搬移
   - 添加Robots.txt
-</details>
-
-<details>
-  <summary>20220222</summary>
-  <h3>添加403 503</h3>
-
   - 添加了403 503页面
   - 添加文章 Ubuntu纯命令行走Clash终端代理-Linux同理
   - 压缩网站文件
   - 添加文章 Python浅谈多线程 Go实现基础密码加密解密
   - 迁移 树莓派文章
-</details>
-
-<details>
-  <summary>20220220</summary>
-  <h3>修正日期，添加文章</h3>
-
   - 修正了原文的日期
   - 加入文章 Docker日常究竟要怎么用
   - 更新文章 Docker日常究竟要怎么用
   - 加入打赏功能
   - 加入文章 学习Python高级编程到asyncio并发实践
   - 加入文章 日常中的Git怎么使用
-</details>
-
-<details>
-  <summary>20220219</summary>
-  <h3>加入URL算法</h3>
-
   - 加入了hexo-abbrlink简化
   - 加入文章 Js逆向练习制造Token与Id
   - 添加百度sitemap
-</details>
-
-<details>
-  <summary>20220218</summary>
-  <h3>加入搜索系统，更新留言板</h3>
-
   - 加入了本地搜索系统
   - 留言板上BB了两句
   - 添加友链规则
@@ -116,10 +75,9 @@
   <h3>初始化博客网站，实现自动化部署</h3>
   <p>今天域名终于审批下来了耶～</br>在原来的基础上开始部署公网系统。</p>
 
-- 添加网站分析统计，使用[谷歌分析](https://www.google.com/analytics/)
-- 使用`Twikoo`作为[网站的评价系统](https://twikoo.js.org/quick-start.html#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E7%BD%B2)
-- 添加了Akismet 反垃圾服务
-- 添加了即时的[微信消息推送](https://sct.ftqq.com/)
-- 谷歌分析延迟改为[百度分析](https://tongji.baidu.com/sc-web)
-
+  - 添加网站分析统计，使用[谷歌分析](https://www.google.com/analytics/)
+  - 使用`Twikoo`作为[网站的评价系统](https://twikoo.js.org/quick-start.html#%E4%BA%91%E5%87%BD%E6%95%B0%E9%83%A8%E7%BD%B2)
+  - 添加了Akismet 反垃圾服务
+  - 添加了即时的[微信消息推送](https://sct.ftqq.com/)
+  - 谷歌分析延迟改为[百度分析](https://tongji.baidu.com/sc-web)
 </details>
