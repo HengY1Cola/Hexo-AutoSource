@@ -21,10 +21,37 @@ comments: false
             {
                 "From": "学院",
                 "Teacher": "老师",
-                "Long": "那些周上课",
-                "Week": "星期几",
-                "Which": "多少节",
-                "Where": "在哪里上课"
+                "Long": "周数",
+                "Week": "星期",
+                "Which": "节数",
+                "Where": "地点"
+            }
+        ],
+        "tips": ""
+    },
+    "trace_id": "",
+    "stack": null
+}
+```
+
+## 接口二：查询考试安排
+接口路径：/school/exam
+请求方式：POST
+参数请求：{ "account"="xxx" , "password"="xxx" }
+接口示例：https://api.hengy1.top/school/exam
+```json
+{
+    "errno": 0,
+    "errmsg": "",
+    "data": {
+        "total": 6,
+        "examDetail": [
+            {
+                "What": "科目",
+                "Teacher": "老师",
+                "Where": "考试地点",
+                "When": "考试时间",
+                "Sit": "座位"
             }
         ],
         "tips": ""
