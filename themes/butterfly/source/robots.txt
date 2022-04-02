@@ -11,5 +11,5 @@ Allow: /css/
 Allow: /fonts/
 Allow: /fancybox/
 
-Sitemap: https://hengy1.top/sitemap.xml
-Sitemap: https://hengy1.top/baidusitemap.xml
+Sitemap: https://www.hengy1.top/sitemap.xml
+Sitemap: https://www.hengy1.top/baidusitemap.xml

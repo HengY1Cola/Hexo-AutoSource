@@ -21,10 +21,18 @@
 ##  更新日志
 
 <details>
+  <summary>20220402</summary>
+  <h3>修改域名</h3>
+
+- 换了加速域名加上www
+</details>
+
+<details>
   <summary>20220401</summary>
   <h3>添加宿舍水费充值</h3>
 
   - 添加宿舍水费充值描述
+  - 添加了查询课表的功能
 </details>
 
 <details>
