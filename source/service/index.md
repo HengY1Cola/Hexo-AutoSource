@@ -46,6 +46,7 @@ comments: false
 4. 为保护下游服务器防止解析失败，限每5秒调用一次
 5. 特此说明：本系统针对教务服务不会存在任何记录账号密码，即用即消
 6. 连续多次错误会导致校园网账号锁死
+7. 现在加入了错误4次在一小时内不会提供服务
 
 点击查看文档：{% btn '/service/school.html',这里啦～,far fa-hand-point-right,green outline %}
 
