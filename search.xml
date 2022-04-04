@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>爬虫怼API接口的优雅姿势</title>
+      <link href="/article/cb732448.html"/>
+      <url>/article/cb732448.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言：-10">前言：</h2><p>爬虫的知识点很多，大量的网络知识编程知识。而对于业余的来说最多的是：</p><p>对于某些接口，伪造请求拿想要的数据。最近“一不小心”拿下了某个系统的部分接口</p><p>就来“水”一篇文章，分享下我感觉效率很高的姿势。</p><h2 id="工具准备：">工具准备：</h2><ul><li><p>浏览器的F12</p></li><li><p>爬虫工具网站</p></li><li><p>Burpsuit</p></li></ul><h2 id="开始寻找目标：">开始寻找目标：</h2><p>进入对应的页面，找到自己想要的数据，然后打开F12 =&gt; 网络</p><img src="https://pic.hengy1.top/typora/202204041728254.png" alt="image-20220404171619551" width=66%; /><p>注意是搜索而不是过滤然后回车就会发现在哪个接口下</p><img src="https://pic.hengy1.top/typora/202204041728606.png" alt="image-20220404171745062" width=66%; /><p>载荷就是Payload也就是参数 预览就是回来的数据</p><h2 id="模拟请求：">模拟请求：</h2><img src="https://pic.hengy1.top/typora/202204041728484.png" alt="image-20220404171850353" width=66%; /><p>然后到工具网站：<a href="https://spidertools.cn/#/curl2Request">https://spidertools.cn/#/curl2Request</a></p><img src="https://pic.hengy1.top/typora/202204041730637.png" alt="image-20220404172015057" width=66%; /><p>直接把Pthon代码贴出来了，到这里可以在session/cookie没有失效的前提下进行测试。确定哪些参数是必须的</p><h2 id="倒推找cookie">倒推找cookie</h2><p>你会发现有的cookie是怎么来的，那么就需要Burpsuit的帮忙了</p><ol><li>清除目标网站的已经又的cookie</li><li>浏览器走8080端口</li><li>设置好Burp但不用拦截</li></ol><img src="https://pic.hengy1.top/typora/202204041728808.png" alt="image-20220404172404786" width=66%; /><p>然后你就正常操作一遍，然后到Burp里面进行分析</p><img src="https://pic.hengy1.top/typora/202204041729224.png" alt="image-20220404172614689" width=66%; /><p>*很重要👉 注意几个点 1. 按照时间排序 2.注意cookie设置的时机</p><p>然后<strong>右键丢给重发器可以模拟请求猜测字段</strong>，然后根据cookie一步一步倒退回去</p><p>基本搞定～</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>M1芯片实现Kail虚拟机(无Parallels)</title>
       <link href="/article/11d32e85.html"/>
       <url>/article/11d32e85.html</url>
