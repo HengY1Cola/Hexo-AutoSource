@@ -21,6 +21,20 @@
 ##  更新日志
 
 <details>
+  <summary>20220404</summary>
+  <h3>添加文章</h3>
+
+- 爬虫怼API接口的优雅姿势
+</details>
+
+<details>
+  <summary>20220402</summary>
+  <h3>添加查询成绩</h3>
+
+- 添加查询成绩
+</details>
+
+<details>
   <summary>20220402</summary>
   <h3>修改域名</h3>
 
