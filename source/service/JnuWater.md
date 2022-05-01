@@ -18,6 +18,8 @@ comments: false
 
 [^注意]: 该价格表更新于2022-02
 
+- 官方充值入口：https://pay.jnu.edu.cn/jnushouyintai/pyxssssdf/pay
+
 
 ## 接口一：查询余额等信息
 接口路径：/IBSJnuWeb/balance
@@ -89,27 +91,6 @@ comments: false
 请求方式：GET
 参数请求：token
 接口示例：https://api.hengy1.top/IBSJnuWeb/verify?token=xxx
-
-## 接口五：余额充值
-接口路径：/IBSJnuWeb/charge
-请求方式：GET
-参数请求：dormitory&room&money
-接口示例：https://api.hengy1.top/IBSJnuWeb/charge?dormitory=t11&room=0222&money=1
-> Success消息请Base64解密然后生成二维码即可使用
-
-```json
-{
-    "errno":0,
-    "errmsg":"",
-    "data":
-        {
-            "Success":"base64加密",
-            "Warning":""
-        },
-    "trace_id":"",
-    "stack":null
-}
-```
 
 ## 错误接口
 ```json

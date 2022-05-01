@@ -1,10 +1,11 @@
 ---
 title: 大二拿下字节Offer究极面试经验
-date: 2022-04-27 11:20:18
 categories: 分享
 keywords: 字节跳动
 top_img: /img/mics/4623496.webp
 cover: /img/bytedance.png
+abbrlink: 9295560b
+date: 2022-04-27 11:20:18
 ---
 
 
@@ -31,7 +32,7 @@ cover: /img/bytedance.png
 
 要么提前准备，开了春秋招就去投递，**要么不要急着投递，准备好了再去，宁愿HC少点但是有把握**
 
-常见的术语：OC：Offic Call； HC：Head Count；Base：地点；Leader：领导；Monitor ：1对1带你的
+常见的术语：OC：Offic Call； HC：Head Count；Base：地点；Leader：领导
 
 ##  简历：
 

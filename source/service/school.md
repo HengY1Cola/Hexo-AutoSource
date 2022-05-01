@@ -61,7 +61,7 @@ comments: false
 }
 ```
 
-## 接口二：查询考试安排
+## 接口三：查询我的成绩
 接口路径：/school/score
 请求方式：POST
 参数请求：{ "account"="xxx" , "password"="xxx" }
