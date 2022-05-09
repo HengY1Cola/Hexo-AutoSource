@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220509</summary>
+  <h3>添加文章</h3>
+
+- 别再说我们缺一个程序员了
+</details>
+
+<details>
   <summary>20220427</summary>
   <h3>添加文章</h3>
 
