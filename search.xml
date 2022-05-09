@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>别再说我们缺一个程序员了</title>
+      <link href="/article/22239f7a.html"/>
+      <url>/article/22239f7a.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>首发在：<a href="https://hengy1.top/article/22239f7a.html">https://hengy1.top/article/22239f7a.html</a></p></blockquote><p>一直想写这篇文章，一直没动手，不止是因为自己懒，说白了还是感觉自己没底气。</p><p>现在的话我觉得我可以稍微分享一下经验，让各位在参加比赛/项目的时候对彼此的职责有更多的要求。</p><p>接下来我将从<code>自我介绍</code>，<code>开发流程</code>，<code>非程序员角度</code>，<code>程序员角度</code>来简单说说自己的看法。</p><blockquote><p>圣经：<a href="https://mp.weixin.qq.com/s/42zjXQc70o84HJlcVwV9xQ">听说你组了比赛的队伍然后准备找个写程序的</a></p><p>注意：这里的项目不指研究性质的项目哈～</p></blockquote><h2 id="自我介绍">自我介绍</h2><p>本人24届网络空间安全的一名学生，参加大大小小项目10余项。</p><p>现为<strong>字节跳动后端研发实习生</strong>，多的奖项就不列了。看干货重要吧🤔</p><h2 id="开发流程">开发流程</h2><p>说到开发流程，可能干计算机的都不知道完整究竟是怎么样的。<strong>一般都是拉去干全栈，能怎么实现就怎么来</strong></p><p>关键是所谓的全栈也是浮在表面上，下面我就简单说一下一个完整的全栈过程。</p><blockquote><p>Ps：以下过程参考《程序员的自我修养》 陈逸鹤(著)   我看完了，不错推荐</p></blockquote><p>当你看完完整的开发流程，就不要怪为什么找了个计算机的，想实现这那的都不简单。</p><p><img src="https://pic.hengy1.top/typora/202205091047131.png" alt="process"></p><p>如果你想了解更多，我推荐你看看<code>APIFox</code>这个软件的介绍视频，不仅推荐一个不错的软件也看看整个流程吧</p><blockquote><p>地址我就贴在这里了：<a href="https://www.bilibili.com/video/BV1sS4y137zX">https://www.bilibili.com/video/BV1sS4y137zX</a></p></blockquote><h2 id="非程序员看这里">非程序员看这里</h2><p>这里你将会看到以一位<strong>程序员的视角</strong>对大概率是<strong>策划者/团队发起人</strong>说的话。</p><p>注意哈：我这里是使用的是<strong>程序员身份</strong>而非一位<strong>计算机学生身份</strong>哈</p><p>现在很多项目<strong>基本需要计算机专业的人</strong>，你<strong>一般</strong>没见过我是经济学院的我要找个法学的吧（举个栗子哈）</p><p>当你有个好的idea的时候，就<strong>不要天真的以为我能随便找个计算机专业的人就能开始做</strong>。</p><p><strong>你准备了多少，大概率决定了这个团队能走多远</strong>！！！！！</p><ol><li>首先：你有多少资源就决定你能够吸引多强的人加盟。</li></ol><p>例如：你是否有<strong>靠谱的老师</strong>背书，你的项目<strong>是否有经费</strong>，<strong>项目规模</strong>，<strong>你的经验</strong>，这些都决定最后的奖项大小</p><ol start="2"><li>其次：你是否明白你的项目<strong>具体需要什么技术栈</strong>，招人别随便</li></ol><p>别给我说你只需要什么开发基础N件套，你说就会个<code>Html，CSS，JavaScript</code>来干嘛？别相互折磨好吗？</p><p>Ta写不出你想要的效果，你帮不上Ta任何忙，纯凭一个加盟能约束到对方吗？</p><ol start="3"><li>然后：你在里面能<strong>扮演什么角色？</strong></li></ol><p>一般都是PPT选手，写个项目书把自己宏伟的畅想写出来，然后呢？？</p><p>首先态度端正，<strong>市场实实在在调研，拒绝假大空的写法，然后你要担任产品策划等角色</strong></p><p>然后要<strong>具体实现什么功能，产品UI的设计等你都要弄，别写完报告就摆烂不管了。</strong></p><ol start="4"><li>最后：<strong>你为什么能让一位程序员源源不断为你干活？</strong></li></ol><p>你愿不愿意支付报酬？<strong>大学生已经是最低报酬了，一顿饭，一个红包都可以让别人开心很久</strong>。</p><p><strong>适当的，阶段的奖励是不可缺少的润滑剂</strong>。你不要别人硬着头皮给你做，你啥都不给。人家海王钓鱼还知道回下人家消息呢</p><p>懂吗？设身处地想一下？就算你没钱，没资源，如果对方有担当，人还不错，处个对象嘛。（<strong>这条对我不适用哈</strong>）</p><p>跟程序员处对象也挺香的好吧，这样不停给点糖，就算PUA，也能把项目做下去对吧。</p><p><strong>最重要的一点：做项目是相互尊重，不是认爹认儿子，这是大忌。以及不是计算机专业的就会Coding</strong></p><h2 id="程序员看这里">程序员看这里</h2><p>这里是对准备参加项目/已经参加项目的说的。</p><p>如果你是想<strong>考研/保研</strong>也就是体验下做项目的过程，那么首先建议找老师做项目，先锻炼自己的Coding能力。</p><p>如果你是想<strong>直接找工作</strong>的，也就是不去实验室的，那么尽量找计算机专业的人，大家相互学习。</p><p>权重的话：老师带队（<strong>不是挂名</strong>） &gt; 计算机团队 &gt; 项目/比赛团队 &gt; 创业团队</p><ul><li>当你的身份是：我仅仅是计算机专业的学生（也就是你Coding都很不太行）</li></ul><p>那我建议：别去祸害别人，先专注一个方向，别急着做项目，当你入门有市场竞争力的时候再去。</p><ul><li>当你的身份是：我对开发有兴趣以及有基础的时候</li></ul><p>我的建议就是：<strong>按照权重进行找团队</strong>，最好进行背调，<strong>看看团队有不有大牛以及负责人的口碑</strong></p><ul><li>当你的身份是：我能够应付整个项目的开发/运维/设计等</li></ul><p>我的建议就是：综合考虑对方的实力，现在是你选团队，有目的的去，目标就是拿什么奖</p><ul><li>当你的身份是：我能够独挡一面，一个人就是一个军队的时候</li></ul><p>我的建议就是：完成你手上剩下的项目，到更高的平台去。</p><hr><p>当然作为程序员，就该有自己的担当，不要遇到困难就退缩！当你进入团队的时候，不要遇到问题就摆烂</p><p>别人当时招人的要求你必须要达到，你许下的承诺，例如：我会自己马上开始学，那就是要做到。</p><p>跟<strong>他人的交流，团队的意识</strong>这些软素质都是必备的，<strong>不要觉得自己高高在上，沉下去收获经验</strong>。</p><h2 id="最后">最后</h2><p>我现在想到的就是这么多了，现在学校的项目组成一般是：基础的curd + 一定的创新</p><p><strong>做研究的就不在这个考虑的范围了</strong>，也祝Paper多多…</p><p>如果有留言啥的就到我的博客下面进行留言～ 我也可以及时补充</p><p>如果反响还不错 ，我就抽空再写写项目中如何收获更多经验。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大二拿下字节Offer究极面试经验</title>
       <link href="/article/9295560b.html"/>
       <url>/article/9295560b.html</url>
