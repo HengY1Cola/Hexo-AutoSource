@@ -9,8 +9,59 @@
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Mon, 09 May 2022 03:05:05 GMT</pubDate>
+    <pubDate>Mon, 23 May 2022 10:58:50 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Mac优化 zsh 的启动速度(M1)</title>
+      <link>https://www.hengy1.top/article/d155260a.html</link>
+      <guid>https://www.hengy1.top/article/d155260a.html</guid>
+      <pubDate>Mon, 23 May 2022 18:50:12 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/d155260a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>大作业团队协作的思考</title>
+      <link>https://www.hengy1.top/article/89e2ab2f.html</link>
+      <guid>https://www.hengy1.top/article/89e2ab2f.html</guid>
+      <pubDate>Sat, 21 May 2022 21:16:27 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;为什么我想写这篇文章&quot;&gt;为什么我想写这篇文章&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.hengy1.top/typora/202205212154601.webp&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/89e2ab2f.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>别再说我们缺一个程序员了</title>
@@ -479,60 +530,6 @@
       
       
       <comments>https://www.hengy1.top/article/4ba9700a.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>MAC上RabbitMQ从安装到用GO快速实现搬移</title>
-      <link>https://www.hengy1.top/article/5fe856cc.html</link>
-      <guid>https://www.hengy1.top/article/5fe856cc.html</guid>
-      <pubDate>Mon, 31 Jan 2022 22:17:16 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/5fe856cc.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Pygame实现小球躲避</title>
-      <link>https://www.hengy1.top/article/72f74028.html</link>
-      <guid>https://www.hengy1.top/article/72f74028.html</guid>
-      <pubDate>Sat, 18 Dec 2021 20:08:26 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;前言：-4&quot;&gt;前言：&lt;/h2&gt;
-&lt;p&gt;这学期的Python课，要写代码是真的多…&lt;/p&gt;
-&lt;p&gt;课程实验一是一个五子棋，但是发了代码。&lt;/p&gt;
-&lt;p&gt;至于代码质量嘛～  我直接全部根据自己划分的结构改了&lt;/p&gt;
-&lt;p&gt;这里吐槽下 (真的发下来的代码 惨不忍睹</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/Python/">Python</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/72f74028.html#disqus_thread</comments>
       
     </item>
     

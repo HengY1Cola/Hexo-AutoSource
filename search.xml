@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>Mac优化 zsh 的启动速度(M1)</title>
+      <link href="/article/d155260a.html"/>
+      <url>/article/d155260a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因：">起因：</h2><p>不知道何时何地我更新了个啥；我的终端开启就是十分的卡</p><p>卡到什么程度？卡到新开一个快20秒了；已经够离谱了吧，我就想来解决下这个问题</p><p>下面几乎没有图图了，因为是复盘，当时没截图，请耐心看完应该能解决</p><h2 id="经过：">经过：</h2><p>我直接谷歌：Mac终端开启过慢，然后开始看内容；发现就几个点。</p><ol><li>首先是以<a href="https://blog.csdn.net/Bobby_world/article/details/79673790">Mac终端启动很慢解决方案</a>各种转发出现的删除日志文件就行了。</li></ol><p>好嘛，我删除，发现并没有什么niao用，其实一般看这种帖子就不行，还是忍不住试了试</p><ol start="2"><li>发现<a href="https://zhuanlan.zhihu.com/p/464117825">知乎好文—优化 zsh 的启动速度</a></li></ol><p>这个写的还是挺全的，并且里面外链内容都挺高质量的；但是我试了这个命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ /usr/bin/time /bin/zsh -i -c <span class="built_in">exit</span></span><br><span class="line">$ /usr/bin/time /bin/bash -i -c <span class="built_in">exit</span></span><br></pre></td></tr></table></figure><p>好的结果也就<code>real 0.26</code>当然也就是不符合这类情况；然后我就发现了<a href="https://zhuanlan.zhihu.com/p/68303393">知乎解决zsh启动速度慢的优化方法</a></p><p>其实吧2篇文章都是一个意思；但是还是跟着做了；有2个坑：</p><p><code>brew install qcachegrind --with-graphviz</code> 改为 <code>brew install qcachegrind</code></p><p><code>opam install ocamlfind</code> arm结构不对；到这里其实就气的想重置电脑了，但是换了个思路</p><ol start="3"><li>发现<a href="https://wxnacy.com/2019/04/04/zsh-speed-optimization/">Zsh 加载速度优化</a></li></ol><p>发现了我应该直接根据zsh启动生命周期开看看会加载什么；也就是说完整的文件加载过程</p><p>前面只是涉及了某些部分文件；简单看了看那么就是：</p><p><strong>当打开新的 Terminal 时，配置加载顺序为 ~/.zshenv ~/.zprofile ~/.zshrc ~/.zlogin</strong></p><p><strong>执行 zsh 时，配置加载顺序为 ~/.zshenv ~/.zshrc</strong></p><p>成功，我在<code>~/.zprofile</code>发现了一条brew命令重复了1000多条！删除重新加载，1-2秒；完美！</p><h2 id="总结：-2">总结：</h2><p>可以从 <a href="https://wxnacy.com/2018/10/08/zsh-startup-files/">Zsh 配置文件加载顺序</a> 从Zsh 配置文件的生命周期下手，每个文件夹看看。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大作业团队协作的思考</title>
+      <link href="/article/89e2ab2f.html"/>
+      <url>/article/89e2ab2f.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="为什么我想写这篇文章">为什么我想写这篇文章</h2><p><img src="https://pic.hengy1.top/typora/202205212154601.webp" alt="poster"></p><p>为什么我想写这篇文章，就像我为什么对纯纯是一个软件工程课程肯花那么多时间付出这么多，也就是所说的：<strong>为了包醋做了顿饺子</strong>。究其原因我想在自己现在的能力上完完整整实操一遍，我想把自己会的尽可能体现在这一次项目上。<strong>这个项目花费了前前后后大概20天左右的时间，除了前端我几乎没怎么插手，以及有个什么过场答辩，其余的都是我自己搞得</strong>。因为我已经手上有字节的实习了，现在对什么花里胡哨的奖项不感兴趣，纯纯为了热爱的Coding，很累但是很有成就感，下面我就娓娓道来吧。</p><h2 id="项目概述">项目概述</h2><p>为什么我想做这个？为什么我不想从自己原来那么多项目随便拿一个过来换个壳？一是一次我跟辅导员吹水，在抱怨《金数据》每年收了学校多少钱又没有自动更新的功能，体验不是很好，二是因为我原来做的项目就是纯纯的curd，随着自己越学越多，想在某个项目上体现出自己的能力，这不正好这个机会就来了么。<strong>所以我就挺重视这一次项目开发，不为追求最后的课程得分，只为了能够有自己的一个开源项目。<strong>其实我心里做的不是很愉快，因为这个是</strong>团队项目</strong>，dddd（但是影响不大）</p><h2 id="项目经过">项目经过</h2><p>我在这里面主要负责的是：<strong>后端；产品；UI；测试。</strong></p><p>从最开始我和团队的前端（一位学姐）开会，简单说了下我们的需求，从核心入手，我们最开始就是实现了创建以及填写，然后丰富内容。当然我们都遇到了自己对应的难题，我的话经验比较多，一会就解决了。但是她那边核心难点还是需要动脑子的，尽可能帮一点吧（我原来是做全栈的Vue，es6-11等基础还是会的）。然后我们就开始了开发，使用Git进行日志进度更新，不定时的晚上开会等。然后我就去找工具，从最开始的swagger到集成的Apifox，本地线上环境的搭建与项目运行，服务器的部署，运维等。</p><p>后面的话我就简单学习了下Sketch画原型图，后面MasterGo刚好请了罗永浩打广告，顺便就下载体验了下。我就把我们每个页面都画出来了，包括后面仓库介绍的概念图等，都是找资源；加工修改的。</p><p>快到结尾的时候，我就使用Apifox的集成套件简单压测了下并发下的性能等问题，基本都可以满足，然后再解决下小Bug等，写好Readme，再把仓库的提交合并为一个，改为公开的就开源咯。</p><h2 id="项目思考">项目思考</h2><p>现在的大学生<strong>课上的课程与企业几乎是脱节的</strong>，上好大学的课保个研还是行的</p><p>大学生<strong>首先不要以为自己是计算机专业的就会计算机，其次不要会个curd就以为掌握了所谓了“高级开发”</strong></p><p>我感觉这次项目就是大学生活中众多项目的一个缩影；但是究竟多少人只会嘴上说说呢？</p><p>所以请静下心学习，不要仅仅局限一处，某一个领域，记住自己不会的时候就要拓展去查询，自己的技能树就起来了</p><h2 id="期待">期待</h2><p>项目介绍就在这里了：<a href="https://github.com/Jnu-Survey/Introduce">https://github.com/Jnu-Survey/Introduce</a></p><p>求个star吧希望更多人看见，相互学习吧。想体验的话可以从最开始的海报图里面的二维码进行体验</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>别再说我们缺一个程序员了</title>
       <link href="/article/22239f7a.html"/>
       <url>/article/22239f7a.html</url>
@@ -160,7 +198,7 @@
       <link href="/article/2c7b2295.html"/>
       <url>/article/2c7b2295.html</url>
       
-        <content type="html"><![CDATA[<h2 id="起因：">起因：</h2><p>事情的起因是：我的自动打卡在我加入了<code>Firefox拓展</code>之后开始失效了</p><p>我手动执行完完全全Ok的，一到自动运行就GG了</p><p>然后我设置每分钟运行一次观察CPU状态发现<code>Firefox</code>会启动但是几秒后就没了</p><p>好家伙，去找日志啥都没有。经过我的捣鼓直接放答案。</p><h2 id="打开Crontab日志">打开Crontab日志</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vi /etc/rsyslog.d/50-default.conf</span><br><span class="line"><span class="comment"># 把cron.*前面的注释去掉</span></span><br><span class="line">:wq</span><br><span class="line"></span><br><span class="line">$ sudo service rsyslog restart</span><br><span class="line">$ <span class="built_in">cd</span> /var/<span class="built_in">log</span></span><br><span class="line">$ cat cron.log</span><br></pre></td></tr></table></figure><p>到这里只能查看到执行日志，也就是说看到执行状况而看不到报错</p><h2 id="安装postfix">安装postfix</h2><p>我想起了在Linux下每次执行完毕后会有个打印说的是到<code>/var/mail</code>，那里会详细说明执行情况</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install postfix</span><br><span class="line"><span class="comment"># 会进入一个设置界面</span></span><br><span class="line"><span class="comment"># 全部默认然后全部选择OK/SELECT啥的</span></span><br><span class="line">$ crontab -e </span><br><span class="line"><span class="comment"># MAILTO=example@gmail.com 写入文件</span></span><br><span class="line"><span class="comment"># 等待执行</span></span><br><span class="line">$ <span class="built_in">cd</span> /var/mail</span><br><span class="line">$ cat ubuntu</span><br></pre></td></tr></table></figure><p>到这里查看对应用户的文件就能详细看到执行情况了</p><h2 id="结果">结果</h2><p>我的问题是在crontab下执行，路径文件找不到，我直接cp过去就成功了。</p><p>花了快一个小时捣鼓😭</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="起因：-2">起因：</h2><p>事情的起因是：我的自动打卡在我加入了<code>Firefox拓展</code>之后开始失效了</p><p>我手动执行完完全全Ok的，一到自动运行就GG了</p><p>然后我设置每分钟运行一次观察CPU状态发现<code>Firefox</code>会启动但是几秒后就没了</p><p>好家伙，去找日志啥都没有。经过我的捣鼓直接放答案。</p><h2 id="打开Crontab日志">打开Crontab日志</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vi /etc/rsyslog.d/50-default.conf</span><br><span class="line"><span class="comment"># 把cron.*前面的注释去掉</span></span><br><span class="line">:wq</span><br><span class="line"></span><br><span class="line">$ sudo service rsyslog restart</span><br><span class="line">$ <span class="built_in">cd</span> /var/<span class="built_in">log</span></span><br><span class="line">$ cat cron.log</span><br></pre></td></tr></table></figure><p>到这里只能查看到执行日志，也就是说看到执行状况而看不到报错</p><h2 id="安装postfix">安装postfix</h2><p>我想起了在Linux下每次执行完毕后会有个打印说的是到<code>/var/mail</code>，那里会详细说明执行情况</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ sudo apt-get install postfix</span><br><span class="line"><span class="comment"># 会进入一个设置界面</span></span><br><span class="line"><span class="comment"># 全部默认然后全部选择OK/SELECT啥的</span></span><br><span class="line">$ crontab -e </span><br><span class="line"><span class="comment"># MAILTO=example@gmail.com 写入文件</span></span><br><span class="line"><span class="comment"># 等待执行</span></span><br><span class="line">$ <span class="built_in">cd</span> /var/mail</span><br><span class="line">$ cat ubuntu</span><br></pre></td></tr></table></figure><p>到这里查看对应用户的文件就能详细看到执行情况了</p><h2 id="结果">结果</h2><p>我的问题是在crontab下执行，路径文件找不到，我直接cp过去就成功了。</p><p>花了快一个小时捣鼓😭</p>]]></content>
       
       
       <categories>
