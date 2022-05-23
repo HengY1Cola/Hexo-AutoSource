@@ -21,6 +21,14 @@
 ##  更新日志
 
 <details>
+  <summary>20220523</summary>
+  <h3>添加文章</h3>
+
+- 大作业团队协作的思考
+- Mac优化 zsh 的启动速度(M1)
+</details>
+
+<details>
   <summary>20220509</summary>
   <h3>添加文章</h3>
 

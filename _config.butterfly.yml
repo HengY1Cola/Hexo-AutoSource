@@ -31,7 +31,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 50
+    limit_count: 300
 
 # social settings (社交圖標設置)
 # formal:
