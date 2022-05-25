@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220525</summary>
+  <h3>添加文章</h3>
+
+- Go实现Json转Bson存入Mongo
+</details>
+
+<details>
   <summary>20220523</summary>
   <h3>添加文章</h3>
 
