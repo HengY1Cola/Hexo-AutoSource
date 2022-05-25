@@ -9,8 +9,33 @@
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Mon, 23 May 2022 10:58:50 GMT</pubDate>
+    <pubDate>Wed, 25 May 2022 01:43:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Go实现Json转Bson存入Mongo</title>
+      <link>https://www.hengy1.top/article/9ef9f726.html</link>
+      <guid>https://www.hengy1.top/article/9ef9f726.html</guid>
+      <pubDate>Wed, 25 May 2022 09:36:36 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/9ef9f726.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Mac优化 zsh 的启动速度(M1)</title>
@@ -503,33 +528,6 @@
       
       
       <comments>https://www.hengy1.top/article/6d98b2b4.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>学习Python高级编程到asyncio并发实践</title>
-      <link>https://www.hengy1.top/article/4ba9700a.html</link>
-      <guid>https://www.hengy1.top/article/4ba9700a.html</guid>
-      <pubDate>Fri, 04 Feb 2022 19:27:37 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;前言：-9&quot;&gt;前言：&lt;/h2&gt;
-&lt;p&gt;今天也顺利把&lt;strong&gt;Python3高级核心技术97讲&lt;/strong&gt;看完了&lt;/p&gt;
-&lt;p&gt;课程链接我也贴一下：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/Python/">Python</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/4ba9700a.html#disqus_thread</comments>
       
     </item>
     
