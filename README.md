@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220528</summary>
+  <h3>添加文章</h3>
+
+- 当面对一个项目究竟该怎么办
+</details>
+
+<details>
   <summary>20220525</summary>
   <h3>添加文章</h3>
 
