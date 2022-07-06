@@ -9,8 +9,34 @@
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Sat, 28 May 2022 02:43:32 GMT</pubDate>
+    <pubDate>Wed, 06 Jul 2022 15:45:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Shell 学习笔记</title>
+      <link>https://www.hengy1.top/article/aa327429.html</link>
+      <guid>https://www.hengy1.top/article/aa327429.html</guid>
+      <pubDate>Wed, 06 Jul 2022 23:26:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;Shell-学习笔记&quot;&gt;Shell 学习笔记&lt;/h2&gt;
+&lt;p&gt;慕课链接：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/aa327429.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>当面对一个项目究竟该怎么办</title>
@@ -503,31 +529,6 @@
       
       
       <comments>https://www.hengy1.top/article/86cd1cda.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>数字取证究竟怎么入门</title>
-      <link>https://www.hengy1.top/article/8679ce28.html</link>
-      <guid>https://www.hengy1.top/article/8679ce28.html</guid>
-      <pubDate>Fri, 18 Feb 2022 21:53:36 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%AE%89%E5%85%A8/">安全</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/8679ce28.html#disqus_thread</comments>
       
     </item>
     
