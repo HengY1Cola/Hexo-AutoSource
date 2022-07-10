@@ -21,6 +21,13 @@
 ##  更新日志
 
 <details>
+  <summary>20220710</summary>
+  <h3>添加文章</h3>
+
+- shell笔记
+</details>
+
+<details>
   <summary>20220706</summary>
   <h3>暑假归来</h3>
 
@@ -28,87 +35,27 @@
 </details>
 
 <details>
-  <summary>20220528</summary>
-  <h3>添加文章</h3>
+  <summary>202205</summary>
+  <h3>5月份合集</h3>
 
 - 当面对一个项目究竟该怎么办
-</details>
-
-<details>
-  <summary>20220525</summary>
-  <h3>添加文章</h3>
-
 - Go实现Json转Bson存入Mongo
-</details>
-
-<details>
-  <summary>20220523</summary>
-  <h3>添加文章</h3>
-
 - 大作业团队协作的思考
 - Mac优化 zsh 的启动速度(M1)
-</details>
-
-<details>
-  <summary>20220509</summary>
-  <h3>添加文章</h3>
-
 - 别再说我们缺一个程序员了
 </details>
 
 <details>
-  <summary>20220427</summary>
-  <h3>添加文章</h3>
+  <summary>202204</summary>
+  <h3>4月份合集</h3>
 
 - 大二拿下字节Offer究极面试经验
-</details>
-
-<details>
-  <summary>20220422</summary>
-  <h3>添加文章</h3>
-
 - 字节跳动人力套件三面面经
-</details>
-
-<details>
-  <summary>20220416</summary>
-  <h3>添加文章</h3>
-
 - 字节跳动人力套件二面面经
-</details>
-
-<details>
-  <summary>20220413</summary>
-  <h3>添加文章</h3>
-
 - 字节跳动人力套件一面面经
-</details>
-
-<details>
-  <summary>20220404</summary>
-  <h3>添加文章</h3>
-
 - 爬虫怼API接口的优雅姿势
-</details>
-
-<details>
-  <summary>20220402</summary>
-  <h3>添加查询成绩</h3>
-
 - 添加查询成绩
-</details>
-
-<details>
-  <summary>20220402</summary>
-  <h3>修改域名</h3>
-
 - 换了加速域名加上www
-</details>
-
-<details>
-  <summary>20220401</summary>
-  <h3>添加宿舍水费充值</h3>
-
   - 添加宿舍水费充值描述
   - 添加了查询课表的功能
 </details>
