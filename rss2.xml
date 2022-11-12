@@ -9,8 +9,36 @@
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Fri, 30 Sep 2022 08:10:00 GMT</pubDate>
+    <pubDate>Sat, 12 Nov 2022 09:26:29 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>利用半自动补环境插件处理某乎算法</title>
+      <link>https://www.hengy1.top/article/f322d267.html</link>
+      <guid>https://www.hengy1.top/article/f322d267.html</guid>
+      <pubDate>Sat, 12 Nov 2022 17:24:32 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;背景：&quot;&gt;背景：&lt;/h2&gt;
+&lt;p&gt;最近发现了一个半自动补环境插件，感觉还可以，然后人家我看别人的文章有个Demo。&lt;/p&gt;
+&lt;p&gt;简单理解了下什么原理，下面我就简单说下食用方法，用下来还是不错滴&lt;/p&gt;
+&lt;p&gt;仓库地址：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E9%80%86%E5%90%91/">逆向</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/f322d267.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>JavaScript ES(6-11)全版本语法</title>
@@ -500,33 +528,6 @@
       
       
       <comments>https://www.hengy1.top/article/6e07425f.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Go实现基础密码加密解密</title>
-      <link>https://www.hengy1.top/article/9f3d09de.html</link>
-      <guid>https://www.hengy1.top/article/9f3d09de.html</guid>
-      <pubDate>Tue, 22 Feb 2022 23:38:46 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;前言：-2&quot;&gt;前言：&lt;/h2&gt;
-&lt;p&gt;自己没事查询资料弄了个Go加密解密的文件，方便在日常中直接调用&lt;/p&gt;
-&lt;div class=&quot;note green icon flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%AE%89%E5%85%A8/">安全</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/9f3d09de.html#disqus_thread</comments>
       
     </item>
     

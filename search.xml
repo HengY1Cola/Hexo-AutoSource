@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>利用半自动补环境插件处理某乎算法</title>
+      <link href="/article/f322d267.html"/>
+      <url>/article/f322d267.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="背景：">背景：</h2><p>最近发现了一个半自动补环境插件，感觉还可以，然后人家我看别人的文章有个Demo。</p><p>简单理解了下什么原理，下面我就简单说下食用方法，用下来还是不错滴</p><p>仓库地址：<a href="https://github.com/cilame/v_jstools">https://github.com/cilame/v_jstools</a></p><p>某乎页面：aHR0cHM6Ly93d3cuemhpaHUuY29tL3NlYXJjaD90eXBlPWNvbnRlbnQmcT1weXRob24=</p><h2 id="插件安装：">插件安装：</h2><p>我安装的是「Commits on Aug 5, 2022」这个时间版本 因为前面的不知道为啥复制下来就是undefined</p><p><a href="https://github.com/cilame/v_jstools/tree/1ee5bdea941b20745bb2b711f861719c71288723">https://github.com/cilame/v_jstools/tree/1ee5bdea941b20745bb2b711f861719c71288723</a></p><img src="https://pic.hengy1.top/typora/202211121708386.png" alt="image-20221112164123342" style="zoom:50%;" /><p>然后「解压」–&gt; 「打开 chrome://extensions/ 页面 」–&gt; 「打开开发者模式」 -&gt; 「加载文件夹」就OK</p><p>然后找到插件，「打开配置页面」：</p><img src="https://pic.hengy1.top/typora/202211121708039.png" alt="image-20221112164333644" style="zoom:50%;" /><p>这个是什么意思呢，就是在加载页面的时候会对涉及到的记录你在浏览器里面的值然后进行函数Hook</p><h2 id="寻找算法：">寻找算法：</h2><p>打开页面找到浏览器请求，随便找一个就能发现：</p><img src="https://pic.hengy1.top/typora/202211121708846.png" alt="image-20221112164555019" style="zoom:33%;" /><p>*我们先明确下我们的目标：找到如何组成<code>2.0_xxxxxxxx</code>的来路</p><ol><li>先全局搜索「x-zse-96」能找到两处，这里我就直接说在这里打就OK：(格式化代码都会吧)</li></ol><img src="https://pic.hengy1.top/typora/202211121708342.png" alt="image-20221112164816132" style="zoom:33%;" /><ol start="2"><li>刷新整个页面，分析断点处的信息：</li></ol><img src="https://pic.hengy1.top/typora/202211121708511.png" alt="image-20221112165048154" style="zoom:33%;" /><p>2.1 分析signature怎么来的：</p><p>断点不动，然后点击控制台，发现<code>f()(s)</code>是一串值【这里我们就暂时不分析这个怎么来的了(篇幅有限)】</p><img src="https://pic.hengy1.top/typora/202211121708740.png" alt="image-20221112165138744" style="zoom:33%;" /><p>前面那个(0, F®.encrypt)是个函数，这里注意，鼠标放在控制台的函数返回上面双击会直接跳转到对应位置</p><img src="https://pic.hengy1.top/typora/202211121708689.png" alt="image-20221112165323415" style="zoom:33%;" /><p>打上断点：</p><img src="https://pic.hengy1.top/typora/202211121710740.png" alt="image-20221112165448702" style="zoom:33%;" /><h2 id="开启插件，脱代码：">开启插件，脱代码：</h2><p>刷新页面，重新来到这里：</p><img src="https://pic.hengy1.top/typora/202211121708105.png" alt="image-20221112165546072" style="zoom:33%;" /><p>这个时候就要分析代码了，看见下面的<code>export.default</code>是把这个D函数导出去了，反过来想这个函数就在这一块内</p><p>往上面翻看，会发现是个函数自执行，这样的话就开始扣代码。</p><img src="https://pic.hengy1.top/typora/202211121708166.png" alt="image-20221112165952459" style="zoom:33%;" /><p>运行不报错就OK。</p><img src="https://pic.hengy1.top/typora/202211121709437.png" alt="image-20221112170016454" style="zoom:33%;" /><p>然后你在某乎的控制台会发现大量的打印，那么就是Hook成功了，直接打造临时环境：</p><img src="https://pic.hengy1.top/typora/202211121709697.png" alt="image-20221112170123715" style="zoom:50%;" /><h2 id="创建Node环境：">创建Node环境：</h2><p>创建一个env.js复制进去，然后记得先加载这个</p><p><img src="https://pic.hengy1.top/typora/202211121714595.png" alt="image-20221112171401490"></p><p>在Index.js 把扣的代码放进去，然后在Index.js最上面把env.js引入进来</p><img src="https://pic.hengy1.top/typora/202211121714540.png" alt="image-20221112171429793" style="zoom:50%;" /><p>使用Node执行：（我是丢在沙盒里面的，无所谓没差啥）</p><img src="https://pic.hengy1.top/typora/202211121715992.png" alt="image-20221112171521184" style="zoom:50%;" /><p>这样这个加密参数就出来了，然后里面是有随机值的，所以会发现每次执行不一样</p><p>整个使用的思想就是这样，再难也是拼经验、思路、耐心，先这样吧</p><h2 id="假如没有这个插件？">假如没有这个插件？</h2><p>没有这个插件就需要补浏览器环境了，运行代码缺啥补啥可以简单理解为，这里我先不展开说了，周末愉快。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 逆向 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript ES(6-11)全版本语法</title>
       <link href="/article/3dee90a5.html"/>
       <url>/article/3dee90a5.html</url>
