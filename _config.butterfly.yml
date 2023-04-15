@@ -405,7 +405,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: <a href="https://www.miit.gov.cn/"><span>蜀ICP备2021006131号</span></a>
+  custom_text: <a href="https://beian.miit.gov.cn/"><span>蜀ICP备2021006131号</span></a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
