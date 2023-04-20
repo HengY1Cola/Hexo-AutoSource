@@ -3,13 +3,13 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>恒HengY1毅</title>
+    <title>个人知识记录</title>
     <link>https://www.hengy1.top/</link>
     
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Sat, 15 Apr 2023 01:04:17 GMT</pubDate>
+    <pubDate>Thu, 20 Apr 2023 15:56:42 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
