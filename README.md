@@ -14,7 +14,7 @@
 
 达到了更新源文件从而更新main分支，服务器直接拉取main分支最新文件即可
 
-点击右侧进行查看效果👉 https://github.com/HengY1Sky/Hexo-AutoSource/tree/main
+点击右侧进行查看效果👉 https://github.com/HengY1Cola/Hexo-AutoSource/tree/main
 
 部署源码在`.github/workflows/deploy.yml`中, 分享拿走！
 
