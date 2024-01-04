@@ -4,7 +4,7 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
+  # 时间轴: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # 分类: /categories/ || fas fa-folder-open
   # List||fas fa-list:
@@ -13,7 +13,7 @@ menu:
   留言: /leave/ || fas fa-comments
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
-  服务: /service/ || fas fa-toolbox
+  # 服务: /service/ || fas fa-toolbox
 
 # Code Blocks (配置代码的地方)
 # --------------------------------------
@@ -37,8 +37,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  iconfont icon-githublogo: https://github.com/HengY1Sky || Github
-  iconfont icon-email-fill: mailto:2911567026@qq.com || Email
+  iconfont icon-githublogo: https://github.com/HengY1Cola || Github
+  iconfont icon-email-fill: mailto:hengy1024@gmail.com || Email
   iconfont icon-csdn: https://blog.csdn.net/weixin_51485807 || CSDN
   iconfont icon-rss: /rss2.xml || RSS
 
@@ -640,7 +640,7 @@ aside:
       link: https://github.com/HengY1Sky/
   card_announcement:
     enable: true
-    content: 分享点自己的点滴记录,欢迎与我交流</br>我的邮箱是2911567026@qq.com
+    content: 主要分享开发与安全相关内容</br>我的邮箱是hengy1024@gmail.com
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all

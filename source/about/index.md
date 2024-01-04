@@ -6,7 +6,7 @@ top_img: /img/about.webp
 aside: false
 ---
 
-# 我发现了什么？
+# 发现了什么？
 
 **Hello～ 欢迎来到我的破站，也发现了一个卑微站长的自我介绍**
 
@@ -20,8 +20,7 @@ aside: false
 
 了解更多可以看看我的其他主页：
 
-1. {% btn 'https://blog.csdn.net/weixin_51485807',CSDN主页,far fa-hand-point-right,outline %}
-2. {% btn 'https://github.com/HengY1Sky',Github,far fa-hand-point-right,outline %}
+1.  {% btn 'https://github.com/HengY1Cola',Github,far fa-hand-point-right,outline %}
 
 {% endnote %}
 
@@ -29,43 +28,32 @@ aside: false
 
 - 来自某双一流211学校的20级咸鱼学生
 - 沉迷于使用`恒 毅`，因为我觉得做事讲究恒心与毅力
-- 没有任何打算考研，绩点上讲就`与世无争`(3.x/5.0)
 - 平时喜欢干一些**毫无功利性偏向技术性**的整活
-- Windows转Mac后的Mac资深依赖用户
+- Windows转Mac后的**Mac资深依赖用户**
 - 热爱技术，喜欢尝试
 
 {% note green 'fas fa-bullhorn' flat %}
 
-2022-04-26 收到了来自字节跳动的人生第一份Offer 我的内推码：AFMNFSS
+字节跳动内推码：AFMNFSS
+
+如果投递后需要帮忙跟进度，可以邮箱联系我：hengy1024@gmail.com
 
 {% endnote %}
 
-#  我会什么？
+# 我的经历
 
-现在主要是**主Golang副Python**
+语言上主要是**主Golang副Python**
 
-1. 开发方面而言：从 `UX设计 到 运维+前端+后段` 都是可以的
+1. 从22年开始参加工作，在24年秋招拿到SSP Offer
 
-从最开始的`PHP世界上最好的语言`（其实是为了打CTF比赛准备的）到`Python`开始编写自己的小脚本。
+2. 腾讯高校小程序比赛全国三等奖
 
-我又从`ThinkPhp`国人开发的最上手的框架到`Gin`的真香使用者。当然我也会从前端三件套到逐渐过时的
+3. CSDN 开发精英赛二等奖学金及企业奖学金
 
-`JQuery`再到香到爆`Vue`开发框架。`Javascript`也是从`ES6`逐渐了解新的语法到能独当一面的~~也就是自己干~~
+4. 校内优秀学生奖学金二、三等奖
 
-全干开发程序猿。当然`Mysql`，`MongoDb`，`Redis`三类数据库以及`Git`，`Docker`等工具🔧掌握也不在话下(*/ω＼*)
+5. 两次获得全国大学生创新创业比赛国家级定级并结项
 
-目前主要使用 `Docker + Vue + Hertz` 来搞自己的项目
+6. 两次获得长安杯数字取证二等奖
 
-2. 安全方面而言：
-
-目前的话已经从CTF退出来了，没有时间弄那么多。不管在课外主要玩玩爬虫技术。主要涉及JS逆向、AST分析等(lll￢ω￢)
-
-3. 杂七杂八方面：
-
-因为我主要是做Web的，其他方面我也都去尝试了(‾◡◝)
-
-**人工智能**主要是跑实验，现在各大开源的模型基本都可以拿过来自己训练
-
-也同时感谢学长们能带我发上论文，希望以后能用上吧o(*^＠^*)o
-
-什么数据分析，画图那些，虽谈不上精通，关键时候顶上那是不在话下的(◡ᴗ◡✿)
+7. 字节跳动第三届CTF解谜竞技赛第八名
