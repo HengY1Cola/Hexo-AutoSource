@@ -9,7 +9,7 @@
     <atom:link href="https://www.hengy1.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Web安全是理想,开发是生活</description>
-    <pubDate>Thu, 04 Jan 2024 09:34:10 GMT</pubDate>
+    <pubDate>Sun, 07 Jan 2024 04:15:53 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,7 +29,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E7%BB%8F%E9%AA%8C/">经验</category>
       
       
       
@@ -57,114 +57,11 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E9%80%86%E5%90%91/">逆向</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
       <comments>https://www.hengy1.top/article/f322d267.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>JavaScript ES(6-11)全版本语法</title>
-      <link>https://www.hengy1.top/article/3dee90a5.html</link>
-      <guid>https://www.hengy1.top/article/3dee90a5.html</guid>
-      <pubDate>Tue, 26 Jul 2022 22:54:36 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;慕课链接：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/3dee90a5.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>CSS重温加固笔记</title>
-      <link>https://www.hengy1.top/article/2c8a606b.html</link>
-      <guid>https://www.hengy1.top/article/2c8a606b.html</guid>
-      <pubDate>Sun, 17 Jul 2022 21:08:10 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;慕课链接：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/2c8a606b.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>自动化部署三剑客笔记</title>
-      <link>https://www.hengy1.top/article/4d691fc8.html</link>
-      <guid>https://www.hengy1.top/article/4d691fc8.html</guid>
-      <pubDate>Sun, 10 Jul 2022 12:35:28 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;自动化部署三剑客笔记&quot;&gt;自动化部署三剑客笔记&lt;/h2&gt;
-&lt;h2 id=&quot;持续交付&quot;&gt;持续交付&lt;/h2&gt;
-&lt;p&gt;课程链接：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/4d691fc8.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Shell 学习笔记</title>
-      <link>https://www.hengy1.top/article/aa327429.html</link>
-      <guid>https://www.hengy1.top/article/aa327429.html</guid>
-      <pubDate>Wed, 06 Jul 2022 23:26:56 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;Shell-学习笔记&quot;&gt;Shell 学习笔记&lt;/h2&gt;
-&lt;p&gt;慕课链接：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/aa327429.html#disqus_thread</comments>
       
     </item>
     
@@ -185,7 +82,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E7%BB%8F%E9%AA%8C/">经验</category>
       
       
       
@@ -235,7 +132,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
@@ -261,7 +158,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E7%BB%8F%E9%AA%8C/">经验</category>
       
       
       
@@ -287,118 +184,11 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E7%BB%8F%E9%AA%8C/">经验</category>
       
       
       
       <comments>https://www.hengy1.top/article/22239f7a.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>大二拿下字节Offer究极面试经验</title>
-      <link>https://www.hengy1.top/article/9295560b.html</link>
-      <guid>https://www.hengy1.top/article/9295560b.html</guid>
-      <pubDate>Wed, 27 Apr 2022 11:20:18 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/9295560b.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>22年字节跳动飞书人力套件三面面经</title>
-      <link>https://www.hengy1.top/article/3543930c.html</link>
-      <guid>https://www.hengy1.top/article/3543930c.html</guid>
-      <pubDate>Fri, 22 Apr 2022 01:46:42 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h3 id=&quot;前文题要：&quot;&gt;前文题要：&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;一面：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/3543930c.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>22年字节跳动飞书人力套件二面面经</title>
-      <link>https://www.hengy1.top/article/8b06e189.html</link>
-      <guid>https://www.hengy1.top/article/8b06e189.html</guid>
-      <pubDate>Sat, 16 Apr 2022 09:49:01 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;前文链接：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/8b06e189.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>22年字节跳动飞书人力套件一面面经</title>
-      <link>https://www.hengy1.top/article/c956b8c6.html</link>
-      <guid>https://www.hengy1.top/article/c956b8c6.html</guid>
-      <pubDate>Wed, 13 Apr 2022 08:30:26 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;前言：-8&quot;&gt;前言：&lt;/h2&gt;
-&lt;p&gt;本人24届，人生第一场面试来自字节跳动，也挺开心的。&lt;/p&gt;
-&lt;p&gt;Boss上的途径直接找的对应岗位的HR，效率挺快的，收大二的，点赞～&lt;/p&gt;
-&lt;p&gt;（但是投递的大三暑假实习我一时间没搞懂，不过问题不大）&lt;/p&gt;
-&lt;h2</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
-      
-      
-      
-      <comments>https://www.hengy1.top/article/c956b8c6.html#disqus_thread</comments>
       
     </item>
     
@@ -419,7 +209,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
@@ -444,7 +234,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
@@ -470,7 +260,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
@@ -495,7 +285,7 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%88%86%E4%BA%AB/">分享</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
@@ -523,11 +313,219 @@
       
       
       
-      <category domain="https://www.hengy1.top/categories/%E5%AE%89%E5%85%A8/">安全</category>
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
       
       
       
       <comments>https://www.hengy1.top/article/a637161.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Python浅谈多线程</title>
+      <link>https://www.hengy1.top/article/6e07425f.html</link>
+      <guid>https://www.hengy1.top/article/6e07425f.html</guid>
+      <pubDate>Tue, 22 Feb 2022 23:46:21 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/6e07425f.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Go实现基础密码加密解密</title>
+      <link>https://www.hengy1.top/article/9f3d09de.html</link>
+      <guid>https://www.hengy1.top/article/9f3d09de.html</guid>
+      <pubDate>Tue, 22 Feb 2022 23:38:46 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：-2&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;自己没事查询资料弄了个Go加密解密的文件，方便在日常中直接调用&lt;/p&gt;
+&lt;div class=&quot;note green icon flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/9f3d09de.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu纯命令行走Clash终端代理(Linux同理)</title>
+      <link>https://www.hengy1.top/article/3dadfa74.html</link>
+      <guid>https://www.hengy1.top/article/3dadfa74.html</guid>
+      <pubDate>Tue, 22 Feb 2022 19:48:30 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;Ubuntu纯命令行走Clash代理-Linux同理&quot;&gt;Ubuntu纯命令行走Clash代理(Linux同理)&lt;/h2&gt;
+&lt;div class=&quot;note green icon flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/3dadfa74.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>日常中的Git怎么使用</title>
+      <link>https://www.hengy1.top/article/e996634a.html</link>
+      <guid>https://www.hengy1.top/article/e996634a.html</guid>
+      <pubDate>Sun, 20 Feb 2022 22:03:56 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;hr&gt;
+&lt;h2 id=&quot;日常中的Git怎么使用&quot;&gt;日常中的Git怎么使用&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;git&lt;/code&gt;是真的香呀，主要是好管理，用着方便。&lt;/p&gt;
+&lt;p&gt;我的git学习路程就是：学了 -&amp;gt; desktop点点点 -&amp;gt; 三剑客 -&amp;gt;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/e996634a.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Docker日常究竟要怎么用</title>
+      <link>https://www.hengy1.top/article/86cd1cda.html</link>
+      <guid>https://www.hengy1.top/article/86cd1cda.html</guid>
+      <pubDate>Sat, 19 Feb 2022 23:46:05 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/86cd1cda.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>数字取证究竟怎么入门</title>
+      <link>https://www.hengy1.top/article/8679ce28.html</link>
+      <guid>https://www.hengy1.top/article/8679ce28.html</guid>
+      <pubDate>Fri, 18 Feb 2022 21:53:36 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E7%BB%8F%E9%AA%8C/">经验</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/8679ce28.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Js逆向练习制造Token与Id</title>
+      <link>https://www.hengy1.top/article/6d98b2b4.html</link>
+      <guid>https://www.hengy1.top/article/6d98b2b4.html</guid>
+      <pubDate>Fri, 11 Feb 2022 00:30:52 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E6%8D%A3%E9%BC%93%E5%88%86%E4%BA%AB/">捣鼓分享</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/6d98b2b4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>学习Python高级编程到asyncio并发实践</title>
+      <link>https://www.hengy1.top/article/4ba9700a.html</link>
+      <guid>https://www.hengy1.top/article/4ba9700a.html</guid>
+      <pubDate>Fri, 04 Feb 2022 19:27:37 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;前言：-7&quot;&gt;前言：&lt;/h2&gt;
+&lt;p&gt;今天也顺利把&lt;strong&gt;Python3高级核心技术97讲&lt;/strong&gt;看完了&lt;/p&gt;
+&lt;p&gt;课程链接我也贴一下：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://www.hengy1.top/categories/%E5%BC%80%E5%8F%91/">开发</category>
+      
+      
+      
+      <comments>https://www.hengy1.top/article/4ba9700a.html#disqus_thread</comments>
       
     </item>
     
