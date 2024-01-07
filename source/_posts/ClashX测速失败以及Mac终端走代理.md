@@ -1,6 +1,6 @@
 ---
 title: ClashX测速失败以及Mac终端走代理
-categories: 分享
+categories: 捣鼓分享
 keywords: ClashX
 top_img: /img/24672.webp
 cover: /img/251378418.webp

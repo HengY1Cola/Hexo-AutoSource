@@ -1,6 +1,6 @@
 ---
 title: M1芯片实现Kail虚拟机(无Parallels)
-categories: 分享
+categories: 捣鼓分享
 keywords: Kail虚拟机
 top_img: /img/kali-bright.webp
 cover: /img/4034416.webp

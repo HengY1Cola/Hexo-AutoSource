@@ -1,6 +1,6 @@
 ---
 title: Go实现基础密码加密解密
-categories: 安全
+categories: 开发
 keywords: 密码学
 top_img: /img/6289149.webp
 cover: /img/security.webp

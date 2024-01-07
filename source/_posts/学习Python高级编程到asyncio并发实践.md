@@ -1,6 +1,6 @@
 ---
 title: 学习Python高级编程到asyncio并发实践
-categories: Python
+categories: 开发
 keywords: asyncio并发
 top_img: /img/2610748.webp
 cover: /img/1102008.webp

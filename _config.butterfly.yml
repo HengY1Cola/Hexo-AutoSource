@@ -10,6 +10,7 @@ menu:
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
+  笔记: /note/ || fas fas fa-archive
   留言: /leave/ || fas fa-comments
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart

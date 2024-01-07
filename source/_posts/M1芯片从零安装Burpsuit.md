@@ -1,6 +1,6 @@
 ---
 title: M1芯片从零安装Burpsuit
-categories: 分享
+categories: 捣鼓分享
 keywords: Burpsuit
 top_img: /img/3278208.webp
 cover: /img/6367119.webp

@@ -1,6 +1,6 @@
 ---
 title: Mac优化 zsh 的启动速度(M1)
-categories: 分享
+categories: 捣鼓分享
 keywords: MacOs
 top_img: /img/123653.webp
 cover: /img/123640.webp

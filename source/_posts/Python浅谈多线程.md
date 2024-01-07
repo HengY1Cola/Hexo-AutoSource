@@ -1,6 +1,6 @@
 ---
 title: Python浅谈多线程
-categories: Python
+categories: 开发
 keywords: 多线程
 top_img: /img/104512.webp
 cover: /img/3656799.webp

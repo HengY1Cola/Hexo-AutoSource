@@ -1,6 +1,6 @@
 ---
 title: 爬虫怼API接口的优雅姿势
-categories: 分享
+categories: 捣鼓分享
 keywords: 爬虫
 top_img: /img/1313483.webp
 cover: /img/2312312.webp

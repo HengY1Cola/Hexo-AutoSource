@@ -1,6 +1,6 @@
 ---
 title: Gin+Fail2ban+Cloudfare实现防爆破扫描
-categories: 安全
+categories: 捣鼓分享
 keywords: 实现防爆破
 top_img: /img/783705.png
 cover: /img/783710.png

@@ -1,6 +1,6 @@
 ---
 title: Ubuntu纯命令行走Clash终端代理(Linux同理)
-categories: 分享
+categories: 捣鼓分享
 keywords: Js逆向
 top_img: /img/7978943.webp
 cover: /img/clashLogo.png
@@ -31,7 +31,7 @@ $ wget https://github.com/Dreamacro/clash/releases/download/v1.9.0/clash-linux-a
 $ gzip -d clash-linux-amd64-v1.9.0.gz
 $ mv clash-linux-amd64-v1.9.0.gz clash
 # 这里clash为二进制可以运行文件了
-$ chomd 755 clash
+$ chmod 755 clash
 ```
 
 ##  传入配置

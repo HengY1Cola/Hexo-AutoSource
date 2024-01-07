@@ -1,6 +1,6 @@
 ---
 title: Pygame实现小球躲避
-categories: Python
+categories: 开发
 keywords: PyGame
 top_img: /img/default.webp
 cover: /img/pygame.webp

@@ -1,6 +1,6 @@
 ---
 title: Js逆向练习制造Token与Id
-categories: 安全
+categories: 捣鼓分享
 keywords: Js逆向
 top_img: /img/7970547.webp
 cover: /img/143R44B1.webp

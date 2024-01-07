@@ -34,7 +34,7 @@ aside: false
 
 支持 Akismet 垃圾评论检测
 
-站长能及时收到消息，留下邮箱，尽快恢复
+站长能及时收到消息，留下邮箱，尽快回复
 
 
 {% note green 'fas fa-bullhorn' flat %}

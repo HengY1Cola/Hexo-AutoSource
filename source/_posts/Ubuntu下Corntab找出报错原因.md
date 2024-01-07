@@ -1,6 +1,6 @@
 ---
 title: Ubuntu下Corntab找出报错原因
-categories: 分享
+categories: 捣鼓分享
 keywords: Corntab
 top_img: /img/1225403.webp
 cover: /img/2587493.webp
